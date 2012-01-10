@@ -56,3 +56,12 @@
 ** Get some guest lectures
    Perry
    Other CIS professors and PhD students
+** Collect some tutorials for emacs on all OS
+*** OSX
+    Stick with aquamacs? or go vanilla?
+    shouldn't matter
+*** Debian
+    apt-get magic
+*** Windows
+    cygwin? or some other alternative
+    but you need a unixy shell
