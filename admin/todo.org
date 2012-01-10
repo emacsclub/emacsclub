@@ -1,0 +1,58 @@
+
+* Starting the group
+** Getting a core together
+*** Roles
+**** President
+     organization face
+     Damage control for the inevitable disasters
+**** VP
+     Operations
+     responsible for getting rooms, making sure 
+**** Treasurer?
+     has the wallet, if we have money at all
+**** Secretary
+     Keeps records of core discussion
+**** Wizard
+     Maintains code repositories and other tech resourc
+**** Public Relations
+     Mailings
+     Advertising
+** Current members
+*** Mayer
+*** Mishal
+*** Andrew?
+*** Zach Wasserman?
+** Advertising to general public
+*** Jackie
+*** CIS@Penn
+** Money and other resources
+*** Food for events
+*** Room reservations
+*** Unvisersity administrivia
+* First meeting
+** Talk about a logo
+   Something with a gnu or the emacs symbol
+** Gauge interest in leadership positions
+   Mayer for president!!!!
+** Refine the goals of the group
+** Plan some lectures, get topics of interest
+    elisp
+    cool modes (org)
+    basic to intermediate
+    productivity enhancements
+    .emacs/.emacs.d - how does the 'load-path work?
+    structuring emacs extensions
+** Refine the meeting structure
+*** Style
+    Lecture, labs
+    Discussion
+*** Reading assignmetns
+    Book club style - go read these things
+*** End of meeting vote for next weeks' topic
+    Core will refine a short list of possible topics
+    the mob picks the exact direction
+* Goals
+** Get better at emacs
+** Get some guest lectures
+   Perry
+   Other CIS professors and PhD students
