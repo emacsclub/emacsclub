@@ -1,32 +1,31 @@
 
 * Emacs Club
+** Group Information
+*** The Core
+    John Mayer
+    Mishal Awadah
+    Andrew Braunstein
+    Matt Croop
+    Zach Wasserman
+*** Roles
+**** Business Director
+     organization face
+     responsible for getting rooms
+     Maintains code repositories and other tech resourc
+     Mailings and Advertising
+
+*** Meeting Structure
+    Alternating weekly
+**** Lecture
+     Targeted at beginners
+**** Hack Sessions
+     Open forum, intermediate to advanced stuff
 ** Starting the group
-*** Getting a core together
-**** Roles
-***** President
-      organization face
-      Damage control for the inevitable disasters
-***** VP
-      Operations
-      responsible for getting rooms, making sure 
-***** Treasurer?
-      has the wallet, if we have money at all
-***** Secretary
-      Keeps records of core discussion
-***** Wizard
-      Maintains code repositories and other tech resourc
-***** Public Relations
-      Mailings
-      Advertising
-*** Current members
-**** Mayer
-**** Mishal
-**** Andrew?
-**** Zach Wasserman?
 *** Advertising to general public
 **** Jackie
 **** CIS@Penn
 *** Money and other resources
+**** GAPSA Application
 **** Food for events
 **** Room reservations
 **** Unvisersity administrivia
