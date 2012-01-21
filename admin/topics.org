@@ -1,1 +1,5 @@
-dired mode
+* Topics
+
+** dired mode
+** emacs splash page
+** skinning emacs (themes)
