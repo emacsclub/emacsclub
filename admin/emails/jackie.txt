@@ -1,14 +1,13 @@
-
 Attention Hackers!
 
-Is Eclipse slowing down your laptop? Have you reached the limits of Notepad++? Can you contort your fingers in gruesome positions? If so, perhaps it's time to learn a new editor...
+Is Eclipse slowing down your laptop? Have you reached the limits of Notepad++? Can you contort your fingers in gruesome positions? If so, perhaps it's time to learn a new editor... Why Not Emacs?
 
-Emacs Club is a new group at Penn whose goal will be to explore the power and usefulness of our favorite text editor. GNU Emacs is an extensible, customizable text editor—and more. The ability to augment Emacs with your own (or others') code makes Emacs ideal for not only programming, but also many other classes of situational editing (organization, blogging, even editing web content on-the-fly!).
+Emacs Club is a new group at Penn whose goal will be to explore the power of our favorite text editor. GNU Emacs is an extensible, customizable text editor — and more. The ability to augment Emacs with your own code snippets makes Emacs ideal for not only programming, but also many other classes of situational editing, such as organization or blogging.
 
-Throughout the semester, we'll learn as a group the basic and intermediate techniques of Emacs, with a focus on personalization and customization.
+Throughout the semester, we'll learn the basic and intermediate techniques of Emacs as a group, with a focus on topics dealing with personalization and customization.
 
-To learn more, join us for our General Interest Meeting this Thursday, January 19th at 6 PM in ___.
+To learn more, join us for our first general meeting on Tuesday, January 31st at 6 PM in Levine 315.
 
 - the Emacs Club core
 
-PS: To our esteemed colleagues using Vi, it's never to late to ":q"
+PS: To our friends using vi, it's never to late to ":q"
