@@ -14,7 +14,7 @@ Emacs Club Topics
    - rectangle selection
    - picture-mode (ridiculous but awesome)
    - C programming toolkit
-	 - M-x shell 
+   - M-x shell 
 	 - M-x gdb (recommended if you are using gdb to debug)
 	 - CEDET and project management (Intermediate)
 	 - M-x compile and makefiles (C, Java, but really anything)
