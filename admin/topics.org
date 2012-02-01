@@ -1,5 +1,35 @@
-* Topics
+Emacs Club Topics
 
-** dired mode
-** emacs splash page
-** skinning emacs (themes)
+* Topics
+   - org-mode
+   - customizing emacs (vs. extending)
+   - formatting
+   - keyboard shortcuts
+   - jokes
+   - version control
+	   - git
+	   - svn
+   - autocomplete
+   - templates (Yasnippet)
+   - dired
+   - diff'ing files
+   - rectangle selection
+   - picture-mode (ridiculous but awesome)
+   - C programming toolkit
+	 - M-x shell 
+	 - M-x gdb (recommended if you are using gdb to debug)
+	 - CEDET and project management (Intermediate)
+	 - M-x compile and makefiles (C, Java, but really anything)
+   - Language workflows	 
+     - Python (and django) toolkit
+	 - Ruby (and rails) toolkit
+	 - org-mode
+   - email
+   - flymake (syntax checking on the fly)
+   - elisp and custom extensions (Advanced)
+   - emacs packages (Beginner - recommended)
+	   - .emacs
+	   - the starter kit (Andrew)
+   - major/minor-modes (Recommended)
+   - info pages (Recommended)
+   - skinning emacs (Optional - Aesthetic)
