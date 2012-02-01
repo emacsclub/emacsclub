@@ -11,7 +11,7 @@ Emacs Club Topics
 	   - svn
    - autocomplete
    - templates (Yasnippet)
-   - dired
+   - dired (recommended)
    - diff'ing files
    - rectangle selection
    - picture-mode (ridiculous but awesome)
@@ -29,7 +29,8 @@ Emacs Club Topics
    - elisp and custom extensions (Advanced)
    - emacs packages (Beginner - recommended)
 	   - .emacs
-	   - the starter kit (Andrew)
+	   - the starter kit
    - major/minor-modes (Recommended)
    - info pages (Recommended)
    - skinning emacs (Optional - Aesthetic)
+   - spell checking (aspell)
