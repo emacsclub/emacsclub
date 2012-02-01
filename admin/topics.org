@@ -6,9 +6,7 @@ Emacs Club Topics
    - formatting
    - keyboard shortcuts
    - jokes
-   - version control
-	   - git
-	   - svn
+   - version control (git, svn)
    - autocomplete
    - templates (Yasnippet)
    - dired (recommended)
