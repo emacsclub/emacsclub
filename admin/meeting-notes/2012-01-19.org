@@ -10,14 +10,14 @@
      - *Andrew* : Do you know what emacs does?
      - *Guy* : I know you can play tetris in it.
 ** Topics
-   - *Zach* : I wanna learn aweseome shit. Also some lisp.
+   - *Zach* : I wanna learn awesome shit. Also some lisp.
      - Zach also wants to learn how to get line numbers to work.
    - Andrew proposes extending to general command-line fu.
      - *Zach* : We should just call it the neckbeard club.
    - *Andrew* : EMACS COMMAND OF THE WEEK!
 ** Administration
    - *John* : Treasury? We don't have money.
-   - John will pressing the "send email" button.
+   - John will be pressing the "send email" button.
    - *John* : Gauging interest in leadership... I'm going to do all the work,
               I think you all decided on that.
      - John Mayer for president!
