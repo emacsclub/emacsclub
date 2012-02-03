@@ -5,31 +5,35 @@
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+STYLE:    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-#+OPTIONS: H:2 num:nil
+#+OPTIONS:  num:nil
+#+OPTIONS:   author:nil email:nil
+#+LINK_UP: 
+#+LINK_HOME: index.html
 
 #+begin_center
 Common tasks in org-mode
 #+end_center
 
 * Headings
-  Headings such as this are created with '*'. The number of stars defines 
-  the depth of the heading. Pressing Tab on headings will minimize/maximize 
+  It's all about headings in org. 
+  Headings such as this are created with ~*~ (stars). The number of stars defines 
+  the depth of the heading. Pressing ~<TAB>~ on headings will minimize/maximize 
   them. Pressing tab multiple times in a row on headings with subheadings will
   maximize each subheading by depth corresponding to the number of times 
-  you pressed <TAB>.
+  you pressed ~<TAB>~.
   
 ** Subheadings
-   This is an example of a subheading.
+   Subheadings can nest within other headings such as this one. This is really
+   convenient for organizing stuff.
 
-* "TODO"s 
-  TODO's are created by starting headings with the keyword TODO or DONE. 
+* "TODO"s (~C-c C-t~)
+  TODO's are created by starting headers with the keyword TODO or DONE. 
+  You can also create one with ~C-c C-t~ on a header. 
   They are meant to represent tasks you wish to create within your 
   organizational document. These can be helpful when planning out projects
   or assignments. 
 
-** TODO Example 
-** DONE Example
-** The TODO cycle (~C-c C-t~)
+** The TODO cycle 
    You can
    turn an existing header into a TODO item by cycling its TODO status. The 
    shortcut for this is ~C-c C-t~ (t for todo). 
@@ -74,30 +78,43 @@ Common tasks in org-mode
   A line that starts with '~|-~' (pipe dash) is considered a horizontal 
   seperator; ~<TAB>~ after inserting it to expand the separator.
   
+
+
+   | this | is    | a    | sample  | table |
+   |------+-------+------+---------+-------|
+   | move | from  | one  | col     | to    |
+   | the  | other | with | ~<TAB>~ |       |
+
   Some tips: 
 	  - ~<TAB>~ realigns the columns, and moves to the next column. 
 		If at end of line, it will create a new row. 
 	  - ~C-c C-c~ will realign the columns without moving or creating new ones.
 	  - ~<RET>~ moves to the next row. 
-** Example
-
-   | hello | my    | name | is    | Mish |
-   |-------+-------+------+-------+------|
-   | move  | from  | one  | col   | to   |
-   | the   | other | with | <TAB> |      | 
 
 * Literal Examples
   Literal examples are snippets of text or source code that need to be 
-  unformatted on org export.
+  unformatted on org export. Put this text between ~#+begin-example~ and 
+  ~+end_example~.
 ** Source Code
    Org-mode is great for inserting snippets of code. This can be done with the
    
    #+begin_example
-   #+BEGIN_SRC major-mode-name [options]
-   enter your code in between these two
+   #+BEGIN_SRC [major-mode-name] [options]
    #+END_SRC
    #+end_example
+
+   [major-mode-name] adds a lot of extra functionality to these code blocks
+   within your org file. It's also good for whoever is reading to know what 
+   the language is.
    
+   For example: 
+
+   #+begin_src c -n
+      int main() { 
+	  return 0; 
+	  }
+   #+end_src
+
 *** Useful options and commands.
 
 	Options: 
@@ -113,6 +130,7 @@ Common tasks in org-mode
 	  later with ~C-c C-l~. 
 	
 ** Easy templates
+   It gets tiring to use the long tags if you're doing this a lot. 
    These are shortcuts to generate the above snippet borders. To insert, 
    type a '<' followed by a template selector and then <TAB>. 
 
@@ -133,17 +151,20 @@ Common tasks in org-mode
    I	#+include: line 
    #+end_example
 
-* Including Files 
-  You can include files in an org document, which will be rendered on export.
-  This is done using the single line command
-  
+* Linking
+** Linking files together
+   You can link files together with 
+   #+begin_example
+   [[file:filename][name-of-link]]
+   #+end_example
+   This will preserve links after export to HTML as well. 
+** Linking sections within a document
+  You can create a link to a section within your document with the section name
+  in brackets. The second option lets you call the link something else. 
   #+begin_example
-  #+INCLUDE: "file-path" [type] [src-language]
+  [[section-title]]
+  [[section-title][link-title]]
   #+end_example
-
-  type can be either (quote, example, or src). 
-  if type is src, then src-language can be any major-mode language.
-  
 * Exporting (~C-c C-e~)
   You can export org files to any of the supported formats with 
   ~C-c C-e [option]~. 
@@ -151,7 +172,7 @@ Common tasks in org-mode
   ~C-c C-e~ will show you the options available in a separate buffer. Common 
   ones are text, html, and latex. You can get PDFs by converting to latex, but
   you need to have a LaTeX environment installed on your system to use this.
-** Common Export Variables
+** Export Options (~C-c C-e t~)
    When org files are exported, certain variables are set automatically but
    can be manually set by you. To change a variable's value, use 
    #+begin_example
@@ -159,8 +180,8 @@ Common tasks in org-mode
    #+end_example
    anywhere in your document. At the top is probably best. 
    
-   To paste a list of all export options in your 
-   org document so that you can set them, use 
+   To paste a template of all export options in your 
+   org document so that you can set them immediately, use 
    (org-insert-export-options-template), or ~C-c C-e t~. 
 
    This will print
@@ -186,9 +207,51 @@ Common tasks in org-mode
 	#+XSLT:        the XSLT stylesheet used by DocBook exporter to generate FO file
    #+end_example
 
+   within your document, 
    but with your actual variable values instead of descriptions. Change any of 
    the variables to the value of your choice. These descriptions
    are provided here for your reference. 
+
+   The ~#+OPTIONS~ variable is very useful for specific tweaks and will effect 
+   both HTML and LaTeX exports. 
+
+   #+begin_example
+   H:         set the number of headline levels for export
+   num:       turn on/off section-numbers
+   toc:       turn on/off table of contents, or set level limit (integer)
+   \n:        turn on/off line-break-preservation (DOES NOT WORK)
+   @:         turn on/off quoted HTML tags
+   ::         turn on/off fixed-width sections
+   |:         turn on/off tables
+   ^:         turn on/off TeX-like syntax for sub- and superscripts.  If
+   you write "^:{}", a_{b} will be interpreted, but
+   the simple a_b will be left as it is.
+   -:         turn on/off conversion of special strings.
+   f:         turn on/off footnotes like this[1].
+   todo:      turn on/off inclusion of TODO keywords into exported text
+   tasks:     turn on/off inclusion of tasks (TODO items), can be nil to remove
+   all tasks, todo to remove DONE tasks, or list of kwds to keep
+   pri:       turn on/off priority cookies
+   tags:      turn on/off inclusion of tags, may also be not-in-toc
+   <:         turn on/off inclusion of any time/date stamps like DEADLINES
+   *:         turn on/off emphasized text (bold, italic, underlined)
+   TeX:       turn on/off simple TeX macros in plain text
+   LaTeX:     configure export of LaTeX fragments.  Default auto
+   skip:      turn on/off skipping the text before the first heading
+   author:    turn on/off inclusion of author name/email into exported file
+   email:     turn on/off inclusion of author email into exported file
+   creator:   turn on/off inclusion of creator info into exported file
+   timestamp: turn on/off inclusion creation time into exported file
+   d:         turn on/off inclusion of drawers
+   #+end_example
+
+   Variables are set with ~nil~ or ~t~, and sometimes take an argument. 
+   For example
+
+   #+begin_example
+   #+OPTIONS:     H:2 num:t toc:t \n:nil @:t ::t |:t ^:t f:t TeX:t ...
+   #+end_example
+
 
 *** Title
 	The title is taken from the first non-comment line in the file. If there is
@@ -211,9 +274,17 @@ Common tasks in org-mode
 	#+end_example
 
    
-
    
-
+** Including Other Files 
+   You can include files in an org document, which will be rendered on export.
+   This is done using the single line command
+   
+   #+begin_example
+   #+INCLUDE: "file-path" [type] [src-language]
+   #+end_example
+   
+   type can be either (quote, example, or src). 
+   if type is src, then src-language can be any major-mode language.  
 ** HTML Export 
 *** Stylesheet
 	
@@ -263,3 +334,14 @@ Common tasks in org-mode
   #+CAPTION: This is a table with lines around and between cells
   #+ATTR_HTML: border="2" rules="all" frame="border"
   #+end_example
+*** Site Navigation
+	You can verily easily add "Up" and "Home" buttons on each page with 
+
+	#+begin_example
+	 #+LINK_UP: 
+     #+LINK_HOME: index.html
+	#+end_example
+
+*** Hyperlinks
+	Hyperlinks are managed by links and automatically converted to their 
+	html counterparts. See [[Linking Files]]. 

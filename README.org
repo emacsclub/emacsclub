@@ -2,3 +2,5 @@
 
 ** admin
    Emacs Club administrative documents
+** content
+   Content for the emacs club website

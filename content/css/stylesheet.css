@@ -105,9 +105,13 @@
     margin: .4em;
   }
 
-  table {
-    border: none;
-  }
+  table, th, td {
+  border: 2px solid black;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  rules: all;
+}
 
   td {
     border: none;
