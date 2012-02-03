@@ -7,21 +7,30 @@
 (require 'elnode)
 
 ;;; We'll start the server module with elnode-start
+;;; specifying the handler, port, and address range
 
-(elnode-start
- ;; The first argument is the top-level handler, here
- ;; as an anonymous function
+(elnode-start 
+ 
+ ;; The handler will be anonymous this time
  (lambda (httpcon)
+   
    ;; First, the response header is written
    (elnode-http-start 
-    httpcon 200 
+    httpcon 
+    "200" 
     ;; Note how this argument is given in dotted Pair notation
-    `("Content-type" . "text/html"))
-   ;; Second, write the text of the document to the connection, and return
-   (elnode-http-return
+    '("Content-type" . "text/html"))
+   
+   ;; Second, write the text of the document to the connection
+   (elnode-http-return 
     httpcon
     "<html><h1>HEADER</h1><p>Paragraph.</p></html>"))
- ;; finally the port and address range
- 8080 "0.0.0.0")
+ 
+ 8080 
+ "0.0.0.0")
 
-;;; That's it, now simply eval the buffer, and the server will run
+
+;;; Just like in node, program control continues,
+;;; but the server continues to wait on the event loop
+
+(elnode-error "Server started")
