@@ -13,18 +13,33 @@
 #+LINK_UP:   
 #+LINK_HOME: 
 
+Thanks everyone for coming out to last week's meeting. The meeting this week
+will be at a higher level of difficulty, and you might get a little lost if you
+don't yet know how to use emacs or haven't gone through the tutorial yet. We'll
+have a beginner meeting again next week where we'll go over some more basic
+stuff. 
 
 * Command of the Week
   
-  ~C-c t~ brings up the tutorial. 
+  ~C-c t~ brings up the tutorial. You'll always find the basic key commands
+  you need to remember on this page. A more modern emacs tutorial that is much
+  easier to follow and better written can be found [[http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html][here]].
 
 * Next Session (Intermediate Level)
 
   We'll be going through a few of the basic standard packages (plugins)
   that you can install for emacs, and a few other cool things that relate
-  to the emacsclub website. 
+  to the emacsclub website. If you've gone through a tutorial, you should
+  be able to keep up with most of the things we cover in this session. We can
+  always help you out if you get stuck!
 
-	- The Emacs Starter Kit [[https://github.com/technomancy/emacs-starter-kit]]
-	- Org Mode [[http://orgmode.org/]]
-	- Getting started with Elnode [[http://www.emacswiki.org/emacs/Elnode]]
+  - The Emacs Starter Kit [[https://github.com/technomancy/emacs-starter-kit]]
+	A useful group of emacs packages that is bundled in an easy to use way. Very
+	handy!
 
+  - Getting started with Elnode [[http://www.emacswiki.org/emacs/Elnode]]
+	Elnode is an http server for emacs. We will host the emacsclub site with 
+	elnode to demo its potential. 
+
+  - Org Mode [[http://orgmode.org/]]
+	The best organizational tool any programmer could ask for. 
