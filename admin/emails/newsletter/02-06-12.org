@@ -1,0 +1,30 @@
+#+TITLE:     Emacs Club this Week
+#+AUTHOR:    Emacs Club core
+#+EMAIL:     emacsclub-core@lists.seas.upenn.edu
+#+DATE:      2012-02-06 Mon
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+
+
+* Command of the Week
+  
+  ~C-c t~ brings up the tutorial. 
+
+* Next Session (Intermediate Level)
+
+  We'll be going through a few of the basic standard packages (plugins)
+  that you can install for emacs, and a few other cool things that relate
+  to the emacsclub website. 
+
+	- The Emacs Starter Kit [[https://github.com/technomancy/emacs-starter-kit]]
+	- Org Mode [[http://orgmode.org/]]
+	- Getting started with Elnode [[http://www.emacswiki.org/emacs/Elnode]]
+
