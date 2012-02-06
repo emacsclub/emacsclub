@@ -2,18 +2,22 @@
                          ====================
 
 
-Thanks everyone for coming out to last week's meeting. The meeting this week
-will be at a higher level of difficulty, and you might get a little lost if you
-don't yet know how to use emacs or haven't gone through the tutorial yet. We'll
-have a beginner meeting again next week where we'll go over some more basic
-stuff. 
+Thanks everyone for coming out to last week's meeting. 
+
+The meeting this week will be at a higher level of difficulty, 
+and you might get a little lost if you don't yet know how to use 
+emacs or haven't gone through the tutorial yet. 
+
+We'll have a beginner meeting again next week where we'll go over 
+some more basic stuff. 
 
 Command of the Week 
 ~~~~~~~~~~~~~~~~~~~~
   
   `C-c t' brings up the tutorial. You'll always find the basic key commands
   you need to remember on this page. A more modern emacs tutorial that is much
-  easier to follow and better written can be found [here].
+  easier to follow and better written can be found [here] and is highly 
+  recommended.
 
 
   [here]: http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html
@@ -21,6 +25,8 @@ Command of the Week
 Next Session (Intermediate Level) 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+  The next emacsclub meeting will be on Tuesday Feb 7 at 6pm in Room ??.
+  
   We'll be going through a few of the basic standard packages (plugins)
   that you can install for emacs, and a few other cool things that relate
   to the emacsclub website. If you've gone through a tutorial, you should
@@ -36,4 +42,4 @@ Next Session (Intermediate Level)
     elnode to demo its potential. 
 
   - Org Mode [http://orgmode.org/]
-    The best organizational tool any programmer could ask for. 
+    The best organizational tool any programmer could ask for.
