@@ -6,7 +6,7 @@
 #+KEYWORDS: 
 #+STYLE:    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 #+OPTIONS:  num:nil
-#+OPTIONS:   author:nil email:nil
+#+OPTIONS:   author:t email:nil
 #+LINK_UP: 
 #+LINK_HOME: index.html
 
