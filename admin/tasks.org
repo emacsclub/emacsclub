@@ -1,7 +1,8 @@
 
 * Emacs Club Tasks
 ** TODO Website admin, setup nginx
+*** TODO Restructure html directory layout to fix images
+*** TODO Redesign the org workflow, setup a makefile or something
 ** DONE Jackie Emails
 ** DONE Room Reservation
 ** DONE Pick a meeting time (Tuesday)
-

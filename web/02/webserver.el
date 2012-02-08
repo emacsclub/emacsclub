@@ -11,7 +11,7 @@
 
 ;;; some placeholder constants
 
-(defvar port 8080)
+(defvar port 80)
 (defvar host "*")
 
 ;;; Specific request handlers
@@ -28,18 +28,11 @@
 
 ;;; Routing
 
-(defvar route-table
-  '(("/start" . 'start)
-    ("/upload" . 'upload)))
-
 (defun route-request (pathname)
   
-  (let ((handler
-	 (assoc route-table pathname)))
-    
     (elnode-error
      "About to route request for '%s'."
-     pathname)))
+     pathname))
 
 ;;; Top-level server
 
