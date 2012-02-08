@@ -1,0 +1,7 @@
+
+* Emacs Club Tasks
+** TODO Website admin, setup nginx
+** DONE Jackie Emails
+** DONE Room Reservation
+** DONE Pick a meeting time (Tuesday)
+
