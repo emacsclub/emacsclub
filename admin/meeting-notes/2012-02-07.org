@@ -6,7 +6,7 @@
        - John sings the theme from 2001.
     - Mish attempts to connect Jon's laptop to the projector.
       - *John* : It's got a ThunderWire or something.
-      - *Andrew* : This is my favorite room in the entire building.
+    - *Andrew* : This is my favorite room in the entire building.
 ** Emacs Starter Kit
    - The projector is a fullscreen emacs buffer, occasionally interrupted by
      Growl notifications.
@@ -25,7 +25,7 @@
      - *Andrew* : --and don't crash unexpectedly.
    - *Andrew* : This is why it's good that it's source and not compiled binary, you can change it.
      - *John* : RMS reference. Everyone, take a shot.
-   - AB pronounces magit in at least 3 different ways.
+   - Andrew pronounces magit in at least 3 different ways.
 *** ido-mode
     - *Andrew* : I was trying to beat ido-mode to name the file.
     - ido-mode will look for substrings, not just prefixes.
@@ -43,7 +43,7 @@
      - Someone goes to emacsclub.com
      - *John* : Oh, someone just hit it. That's the server log. OK, everyone go to emacsclub.com.
      - Andrew stress-tests emacsclub.com.
-     - *Andrew* : Whooooooooooo!
+       - *Andrew* : Whooooooooooo!
      - John stops the server, because he can't explain elnode with the running server logs.
      - *John* : Just kidding, I'll start it up again.
    - John defun's start. It logs an error.
@@ -66,7 +66,7 @@
   - *Mish* : Then press tab. Whup! You have a table.
   - *Zach* : Do they support formulas, Mish?
     - *Mish* : Yep!
-  - *Mish* : If you |- right away, it'll just give you a table.
+  - *Mish* : If you ~|-~ right away, it'll just give you a table.
   - Mish shows off syntax highlighting.
     - *Zach* : God, that's sexy.
   - *Mish* : Some HTML pages like to render their quotes with big quote
@@ -93,9 +93,7 @@
    - *Zach* : You forgot M-x zone.
    - If you hold down * in org-mode it blinks colors as it changes
      the heading level.
-#+begin_example
-************** [===](^..^)    <( NYANYANYAN )
-#+end_example
+     - ~************** [===](^..^)    <( NYANYANYAN )~
 ** Misc
    - *John* : I'm going vanilla.
    - *Mish* : It's not cheating to use a mouse.
