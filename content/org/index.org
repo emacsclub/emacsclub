@@ -13,6 +13,6 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 
 
-[[file:../img/zoned_gnu.jpeg]]
+[[file:img/zoned_gnu.jpeg]]
 
 [[file:org_tutorial.org][tutorial]]
