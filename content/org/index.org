@@ -15,4 +15,5 @@
 
 [[file:../img/zoned_gnu.jpeg]]
 
+#+INCLUDE: sitemap.html
 [[file:org_tutorial.org][tutorial]]

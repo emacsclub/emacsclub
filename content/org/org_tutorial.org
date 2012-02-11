@@ -1,14 +1,10 @@
 #+TITLE:     Org-mode Tutorial / Cheat Sheet
 #+AUTHOR:    Mishal Awadah
-#+EMAIL:     emish@seas.upenn.edu
-#+DATE:      2012-02-01 Wed
 #+DESCRIPTION: 
 #+KEYWORDS: 
-#+STYLE:    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+SETUPFILE: ../org-templates/level-0.org
 #+OPTIONS:  num:nil
 #+OPTIONS:   author:t email:nil
-#+LINK_UP: 
-#+LINK_HOME: index.html
 
 #+begin_center
 Common tasks in org-mode
