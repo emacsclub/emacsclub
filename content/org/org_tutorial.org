@@ -76,8 +76,7 @@ Common tasks in org-mode
 
   Tables can be created from any line that starts with '~|~' (pipe). 
   A line that starts with '~|-~' (pipe dash) is considered a horizontal 
-  seperator; ~<TAB>~ after inserting it to expand the separator.
-  
+  seperator; ~<TAB>~ after inserting it to expand the separator.  
 
 
    | this | is    | a    | sample  | table       |
@@ -289,8 +288,7 @@ Common tasks in org-mode
 	#+OPTIONS: toc:nil        (no TOC at all)
 	#+end_example
 
-   
-   
+      
 ** Including Other Files 
    You can include files in an org document, which will be rendered on export.
    This is done using the single line command
