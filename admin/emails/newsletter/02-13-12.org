@@ -1,9 +1,41 @@
 Emacs Club this Week
 
-* Command of the Week
+* Commands of the Week
+
+  C-x 2 - Split screen in two horizontally
+  C-x 3 - Split screen in two vertically
+
+  You can run these commands ad infinitum within any window. To close
+  some of them: 
+
+  C-x 0 - Close current window (the one with my cursor in it)
+  C-x 1 - Close all other windows but the current window.
+
+  If you are working on emacs in terminal, remember you can't click
+  into windows, so to change between them use
+
+  C-x o (That's the letter Oh)
 
 * Next Session (Beginner Level)
 
   The next meeting will be on Tuesday Feb 14 at 6pm in Levine 307. 
 
+  If you are already an Emacs pro, you can afford to skip this
+  session, however, you will almost certainly learn a few new
+  things if you make it. 
+
+  We'll go through Emacs basics, most of which will already be
+  contained within the tutorials. This will be a great time for you to
+  ask questions about general emacs concepts that don't make sense to
+  you yet, as well as asking about certain features you want to know how
+  to use (Emacs can do everything, remember). We'll also explain
+  specific topics and concepts that are usually confusing to
+  beginners, and introduce certain features that are desirable and not
+  necessarily covered by the tutorial. 
   
+  I highly recommend at least skimming the Emacs tutorial, or this one
+  http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html which is
+  very good. This is the BEST way to learn the basics. 
+
+  Remember to bring your laptops so you can follow along. We'll have a
+  projector this time and more pizza :)
