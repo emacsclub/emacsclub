@@ -1,7 +1,16 @@
 Emacs Intro
 
- -- This introduction borrows heavily from Andy Harris's Emacs Guide,
- Prima Tech 2000. 
+* Agenda
+
+  - Newcomers add emails to listserve. Pass around a sheet.
+  - Pizza, let them settle down. 
+  - Introduce everyone and the core.
+  - Make sure everyone has emacs installed. 
+  - Get started
+  - If time permits, help individuals with problems. 
+
+-- This introduction borrows heavily from Andy Harris's Emacs Guide,
+   Prima Tech 2000. 
 
 * Why choose emacs
 
