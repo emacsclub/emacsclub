@@ -17,4 +17,6 @@
 
 [[https://github.com/emacsclub/emacsclub][Emacs Club Github]]
 
+[[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add Yourself to the Listserve]]
+
 [[file:org_tutorial.org][Org Tutorial]]
