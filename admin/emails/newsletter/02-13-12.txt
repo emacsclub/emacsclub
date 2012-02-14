@@ -1,10 +1,9 @@
-#+DATE:      2012-02-13 Mon
-#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   email:nil author:nil
+                         Emacs Club this Week
+                         ====================
 
-Emacs Club this Week
 
-* Commands of the Week
+Commands of the Week 
+~~~~~~~~~~~~~~~~~~~~~
 
   C-x 2 - Split screen in two horizontally
   C-x 3 - Split screen in two vertically
@@ -20,7 +19,8 @@ Emacs Club this Week
 
   C-x o (That's the letter Oh)
 
-* Next Session (Beginner Level)
+Next Session (Beginner Level) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   The next meeting will be on Tuesday Feb 14 at 6pm in Levine 307. 
 
@@ -38,26 +38,32 @@ Emacs Club this Week
   necessarily covered by the tutorial. 
   
   I highly recommend at least skimming the Emacs tutorial, or this one
-  http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html which is
+  [http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html] which is
   very good. This is the BEST way to learn the basics. 
 
   Remember to bring your laptops so you can follow along. We'll have a
   projector this time and more pizza :)
 
-* Getting a hold of Emacs
+Getting a hold of Emacs 
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-** Windows
+Windows 
+========
    Download here -
-   http://ftp.gnu.org/gnu/emacs/windows/emacs-23.4-bin-i386.zip
+   [http://ftp.gnu.org/gnu/emacs/windows/emacs-23.4-bin-i386.zip]
    
-   FAQ here - http://www.gnu.org/software/emacs/windows/index.html
+   FAQ here - [http://www.gnu.org/software/emacs/windows/index.html]
 
-** Mac
+Mac 
+====
    Installation should be straightforward from
-   http://emacsformacosx.com/
+   [http://emacsformacosx.com/]
 
-** Linux
+Linux 
+======
    Use your favorite package manager. To compile it yourself, get the
-   source at ftp://ftp.gnu.org/gnu/emacs/. 
+   source at [ftp://ftp.gnu.org/gnu/emacs/]. 
 
-- Mish
+
+   Cheers,
+   Mish

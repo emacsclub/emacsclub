@@ -14,6 +14,7 @@ Throughout the semester, we'll learn the basic and intermediate techniques of Em
 Join us for our first beginner session tomorrow, Tuesday Feb 14th at
 6pm in Levine 307, where we'll go over all the Emacs basics you need
 to get started. To take full advantage of this session, you should
-bring your Emacs equipped laptop. Pizza will be served!
+bring your Emacs equipped laptop. We can help you get it installed if
+you have trouble. Pizza will be served!
 
 - the Emacs Club core
