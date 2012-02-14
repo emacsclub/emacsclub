@@ -1,10 +1,10 @@
-#+TITLE:     Org-mode Tutorial / Cheat Sheet
+#+TITLE:     Org-mode Tutorial: Cheat Sheet
 #+AUTHOR:    Mishal Awadah
 #+EMAIL:     emish@seas.upenn.edu
 #+DATE:      2012-02-01 Wed
 #+DESCRIPTION: 
 #+KEYWORDS: 
-#+STYLE:    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+STYLE:    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 #+OPTIONS:  num:nil
 #+OPTIONS:   author:t email:nil
 #+LINK_UP: 

@@ -15,4 +15,6 @@
 
 [[file:../img/zoned_gnu.jpeg]]
 
-[[file:org_tutorial.org][tutorial]]
+[[https://github.com/emacsclub/emacsclub][Emacs Club Github]]
+
+[[file:org_tutorial.org][Org Tutorial]]
