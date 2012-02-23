@@ -25,7 +25,7 @@
     doesn't exist, it won't automatically run M-x make-directory.
     - Mish suggests he fix it.
     - He will name it braunstein-mode.
-  - *Andrew*: There's this guy on twitter, @emacs\_knight. You should follow him.
+  - *Andrew*: There's this guy on twitter, @emacs_knight. You should follow him.
   - *Andrew*: There's a caculator in emacs, C-x * *. I believe that it
     works in mysterious ways.
     - It's Reverse Polish Notation.
