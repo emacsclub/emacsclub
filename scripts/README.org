@@ -1,5 +1,0 @@
-* Emacs Server Side Scripts
-  These should go in ~/init.d of the emacsclub server. 
-
-** org_publish.el
-   Automates the publishing process of org files to html. 
