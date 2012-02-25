@@ -1,0 +1,26 @@
+                         Emacs Club this Week
+                         ====================
+
+Greetings all. We didn't have such a great turnout to the intro emacs
+session last week, so we will most likely be merging the two (advanced
+and beginner) sessions into one. Don't feel discouraged to attend any
+of our sessions if you are still a beginner. It is the best way for
+anyone to learn more about Emacs. On with the show!
+
+ Command of the Week 
+~~~~~~~~~~~~~~~~~~~~~~
+  
+  M-g g : which executes goto-line
+  
+  You can also execute it with M-x goto-line.
+
+ Next Session 
+~~~~~~~~~~~~~~~
+  
+  Today's meeting will be in Skirkanich 508. We'll go over our topic
+  list and decide what we want to go through as a group. 
+  
+  Other topics: 
+    - Tramp: Zach will show us how to edit files over ssh without
+      needing a shell
+    - Club website: Automating org export for larger sites. 

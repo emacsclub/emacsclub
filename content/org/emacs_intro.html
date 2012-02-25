@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>Emacs Intro</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-02-14 19:36:49 EST"/>
+<meta name="author" content="Mishal Awadah"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">Emacs Intro</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Agenda </a></li>
+<li><a href="#sec-2">2 Why choose emacs </a></li>
+<li><a href="#sec-3">3 Emacs Conventions </a>
+<ul>
+<li><a href="#sec-3.1">3.1 Control combinations </a></li>
+<li><a href="#sec-3.2">3.2 Meta combinations </a></li>
+<li><a href="#sec-3.3">3.3 Help and Documentation </a>
+<ul>
+<li><a href="#sec-3.3.1">3.3.1 Apropos Help (<code>C-h a</code>) </a></li>
+<li><a href="#sec-3.3.2">3.3.2 Refcards </a></li>
+</ul>
+</li>
+<li><a href="#sec-3.4">3.4 Questions </a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4 Editing </a>
+<ul>
+<li><a href="#sec-4.1">4.1 Movement Commands </a></li>
+<li><a href="#sec-4.2">4.2 Deletion and the Kill Ring </a></li>
+<li><a href="#sec-4.3">4.3 Marking regions </a></li>
+<li><a href="#sec-4.4">4.4 Yanking </a></li>
+<li><a href="#sec-4.5">4.5 Undoing </a></li>
+<li><a href="#sec-4.6">4.6 Search </a></li>
+<li><a href="#sec-4.7">4.7 Major Modes &amp; Minor Modes </a></li>
+<li><a href="#sec-4.8">4.8 Working with Line Numbers </a></li>
+<li><a href="#sec-4.9">4.9 Files, Buffers, and Windows </a>
+<ul>
+<li><a href="#sec-4.9.1">4.9.1 Files </a></li>
+<li><a href="#sec-4.9.2">4.9.2 Buffer: </a></li>
+<li><a href="#sec-4.9.3">4.9.3 Window </a></li>
+<li><a href="#sec-4.9.4">4.9.4 Frame </a></li>
+</ul>
+</li>
+<li><a href="#sec-4.10">4.10 Questions </a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5 Advanced Editing </a>
+<ul>
+<li><a href="#sec-5.1">5.1 Search and Replace </a></li>
+<li><a href="#sec-5.2">5.2 Spell Checking </a></li>
+<li><a href="#sec-5.3">5.3 Keyboard Macros </a></li>
+<li><a href="#sec-5.4">5.4 Questions </a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6 Emacs and Unix </a>
+<ul>
+<li><a href="#sec-6.1">6.1 Shell </a></li>
+<li><a href="#sec-6.2">6.2 Managing Files and Dirs with Dired </a></li>
+<li><a href="#sec-6.3">6.3 File backups </a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Agenda </h2>
+<div class="outline-text-2" id="text-1">
+
+
+<ul>
+<li>
+Newcomers add emails to listserve. Pass around a sheet.
+</li>
+<li>
+Pizza, let them settle down. 
+</li>
+<li>
+Introduce everyone and the core.
+</li>
+<li>
+Make sure everyone has emacs installed. 
+</li>
+<li>
+Get started
+</li>
+<li>
+If time permits, help individuals with problems. 
+
+</li>
+</ul>
+
+<p>&ndash; This introduction borrows heavily from Andy Harris's Emacs Guide,
+Prima Tech 2000. 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Why choose emacs </h2>
+<div class="outline-text-2" id="text-2">
+
+
+<ul>
+<li>
+Emacs is good for powerful text editing
+</li>
+<li>
+Know which editor is good for the job. Emacs might not always be
+the best choice.
+</li>
+<li>
+Emacs can radically change the way you do certain jobs. You do not
+yet realize how, because you have most likely adapted to certain
+inefficiencies in your current workflow. 
+</li>
+<li>
+Emacs requires time, but, if you are willing, you will find that
+it profoundly improves the way you do some of your work. 
+
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Emacs Conventions </h2>
+<div class="outline-text-2" id="text-3">
+
+
+<ul>
+<li>
+Emacs assumes you are smart. You will have to learn things.
+</li>
+<li>
+Is built to run at 100% within terminal. Do not assume any GUI for
+emacs when you learn it.
+<ul>
+<li>
+Example of -nw vs. GUI.
+</li>
+</ul>
+</li>
+<li>
+Keyboard commands. Most have reasonable mnemonics. The benefit is
+that your hands will never have to leave the keyboard to perform
+extremely complex commands. 
+
+</li>
+</ul>
+
+</div>
+
+<div id="outline-container-3.1" class="outline-3">
+<h3 id="sec-3.1"><span class="section-number-3">3.1</span> Control combinations </h3>
+<div class="outline-text-3" id="text-3.1">
+
+
+<ul>
+<li>
+A combination of the CTRL key and some other key. 
+</li>
+<li>
+Remember <code>C-g</code>
+</li>
+<li>
+Multi-key sequences
+<ul>
+<li>
+<code>C-x C-f</code> example
+</li>
+<li>
+All file mgmt commands start with <code>C-x</code>
+
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.2" class="outline-3">
+<h3 id="sec-3.2"><span class="section-number-3">3.2</span> Meta combinations </h3>
+<div class="outline-text-3" id="text-3.2">
+
+
+<ul>
+<li>
+Control combos are not enough to encompass all of emacs' commands.
+</li>
+<li>
+Meta on various systems: I know how mac works, figure out your OS
+meta key. 
+<ul>
+<li>
+ESC works as Meta on any system. You don't hold it down
+though. 
+</li>
+</ul>
+</li>
+<li>
+Meta as amplifier of CTRL. 
+<ul>
+<li>
+Example, <code>C-f</code>, <code>M-f</code>.
+</li>
+</ul>
+</li>
+<li>
+<code>M-x</code> and command names. 
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.3" class="outline-3">
+<h3 id="sec-3.3"><span class="section-number-3">3.3</span> Help and Documentation </h3>
+<div class="outline-text-3" id="text-3.3">
+
+
+<ul>
+<li>
+Before going online, check emacs for help. It is always better. 
+</li>
+<li>
+If you don't know how to ask for help, use ~C-h ? or ~C-h C-h
+
+<p>
+<code>C-h c</code>, <code>C-h i</code>, <code>C-h m</code>, <code>C-h t</code>
+</p>
+</li>
+</ul>
+
+</div>
+
+<div id="outline-container-3.3.1" class="outline-4">
+<h4 id="sec-3.3.1"><span class="section-number-4">3.3.1</span> Apropos Help (<code>C-h a</code>) </h4>
+<div class="outline-text-4" id="text-3.3.1">
+
+
+<p>
+Similar to searching an index. Provides info on any matching
+command. 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3.3.2" class="outline-4">
+<h4 id="sec-3.3.2"><span class="section-number-4">3.3.2</span> Refcards </h4>
+<div class="outline-text-4" id="text-3.3.2">
+
+
+<p>
+All emacs installations come with refcards for your
+convenience. These are pdfs with a list of common commands for
+certain modes in emacs. In my Mac installation of emacs, I can
+find these refcards in 
+</p>
+<p>
+/Applications/Emacs.app/Contents/Resources/etc/refcards
+</p>
+<p>
+They are likely in a similar location in your installation. 
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3.4" class="outline-3">
+<h3 id="sec-3.4"><span class="section-number-3">3.4</span> Questions </h3>
+<div class="outline-text-3" id="text-3.4">
+
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Editing </h2>
+<div class="outline-text-2" id="text-4">
+
+
+</div>
+
+<div id="outline-container-4.1" class="outline-3">
+<h3 id="sec-4.1"><span class="section-number-3">4.1</span> Movement Commands </h3>
+<div class="outline-text-3" id="text-4.1">
+
+
+<p>
+<code>C-f</code>, <code>C-b</code>, <code>C-p</code>, <code>C-n</code>
+<code>M-f</code>, <code>M-b</code>
+<code>C-v</code>, <code>M-v</code>
+<code>M-&lt;</code>, <code>M-&gt;</code>
+<code>C-a</code>, <code>C-e</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.2" class="outline-3">
+<h3 id="sec-4.2"><span class="section-number-3">4.2</span> Deletion and the Kill Ring </h3>
+<div class="outline-text-3" id="text-4.2">
+
+
+<p>
+<code>C-d</code>, <code>backspace</code>, <code>M-backspace</code>
+<code>C-k</code>, <code>M-k</code>, <code>M-d</code>
+</p>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-4.3" class="outline-3">
+<h3 id="sec-4.3"><span class="section-number-3">4.3</span> Marking regions </h3>
+<div class="outline-text-3" id="text-4.3">
+
+
+<p>
+<code>C-@</code>, <code>C-SPACE</code>
+<code>C-w</code>, <code>M-w</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.4" class="outline-3">
+<h3 id="sec-4.4"><span class="section-number-3">4.4</span> Yanking </h3>
+<div class="outline-text-3" id="text-4.4">
+
+
+<p>
+<code>C-y</code>, <code>M-y</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.5" class="outline-3">
+<h3 id="sec-4.5"><span class="section-number-3">4.5</span> Undoing </h3>
+<div class="outline-text-3" id="text-4.5">
+
+<p><code>C-x u</code>, <code>C-/</code>, <code>C-_</code>
+</p>
+<p>
+Remember, <code>C-/</code> doesn't work over ssh, unless you use Ubuntu.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.6" class="outline-3">
+<h3 id="sec-4.6"><span class="section-number-3">4.6</span> Search </h3>
+<div class="outline-text-3" id="text-4.6">
+
+<p><code>C-s</code>, <code>C-r</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.7" class="outline-3">
+<h3 id="sec-4.7"><span class="section-number-3">4.7</span> Major Modes &amp; Minor Modes </h3>
+<div class="outline-text-3" id="text-4.7">
+
+
+<p>
+<code>C-h m</code>
+<code>C-c</code>
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-4.8" class="outline-3">
+<h3 id="sec-4.8"><span class="section-number-3">4.8</span> Working with Line Numbers </h3>
+<div class="outline-text-3" id="text-4.8">
+
+
+<p>
+<code>M-x goto-line</code> (<code>M-g g</code>)
+<code>C-l</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.9" class="outline-3">
+<h3 id="sec-4.9"><span class="section-number-3">4.9</span> Files, Buffers, and Windows </h3>
+<div class="outline-text-3" id="text-4.9">
+
+
+
+</div>
+
+<div id="outline-container-4.9.1" class="outline-4">
+<h4 id="sec-4.9.1"><span class="section-number-4">4.9.1</span> Files </h4>
+<div class="outline-text-4" id="text-4.9.1">
+
+<p>Actual file on disk. This is only written to upon request. 
+</p>
+<p>
+<code>C-x C-f</code>, <code>C-x C-s</code>, <code>C-x s</code>, <code>C-x C-w</code>, <code>C-x C-c</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.9.2" class="outline-4">
+<h4 id="sec-4.9.2"><span class="section-number-4">4.9.2</span> Buffer: </h4>
+<div class="outline-text-4" id="text-4.9.2">
+
+<p>A copy of the file being edited in emacs. The actual file
+does not change until you ask emacs to save the buffer. You can
+save a buffer to a different file with 
+~C-x C-w (Save file as)
+</p>
+<p>
+<code>C-x b</code>, <code>C-x C-b</code>, <code>C-x k</code>, <code>M-x kill-some-buffers</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.9.3" class="outline-4">
+<h4 id="sec-4.9.3"><span class="section-number-4">4.9.3</span> Window </h4>
+<div class="outline-text-4" id="text-4.9.3">
+
+<p>Where buffers are shown.
+</p>
+<ul>
+<li>
+Working with multiple Windows
+</li>
+<li>
+The difference between windows and frames
+
+</li>
+</ul>
+
+<p><code>C-x 0/1/2/3</code>, <code>C-x o</code>, <code>C-M-v</code> (scroll-other-window)
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4.9.4" class="outline-4">
+<h4 id="sec-4.9.4"><span class="section-number-4">4.9.4</span> Frame </h4>
+<div class="outline-text-4" id="text-4.9.4">
+
+<p>Holds windows, only useful with GUIs.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4.10" class="outline-3">
+<h3 id="sec-4.10"><span class="section-number-3">4.10</span> Questions </h3>
+<div class="outline-text-3" id="text-4.10">
+
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Advanced Editing </h2>
+<div class="outline-text-2" id="text-5">
+
+
+</div>
+
+<div id="outline-container-5.1" class="outline-3">
+<h3 id="sec-5.1"><span class="section-number-3">5.1</span> Search and Replace </h3>
+<div class="outline-text-3" id="text-5.1">
+
+
+<p>
+<code>C-s</code>, <code>C-r</code> 
+<code>M-x</code> <code>replace-string</code>, <code>query-replace-string</code>, <code>replace-regexp</code>,
+<code>query-replace-regexp</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-5.2" class="outline-3">
+<h3 id="sec-5.2"><span class="section-number-3">5.2</span> Spell Checking </h3>
+<div class="outline-text-3" id="text-5.2">
+
+
+<ul>
+<li>
+Installing ispell
+</li>
+<li>
+Using ispell (<code>M-x ispell-buffer</code>)
+
+<p>
+flyspell-mode
+</p>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5.3" class="outline-3">
+<h3 id="sec-5.3"><span class="section-number-3">5.3</span> Keyboard Macros </h3>
+<div class="outline-text-3" id="text-5.3">
+
+
+<p>
+<code>C-x (</code>, <code>C-x )</code>, <code>C-x e</code> (call-last-kbd-macro)
+<code>C-g</code>!!
+</p><ul>
+<li>
+Do an example: Indent each line two spaces.
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5.4" class="outline-3">
+<h3 id="sec-5.4"><span class="section-number-3">5.4</span> Questions </h3>
+<div class="outline-text-3" id="text-5.4">
+
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Emacs and Unix </h2>
+<div class="outline-text-2" id="text-6">
+
+
+</div>
+
+<div id="outline-container-6.1" class="outline-3">
+<h3 id="sec-6.1"><span class="section-number-3">6.1</span> Shell </h3>
+<div class="outline-text-3" id="text-6.1">
+
+
+<p>
+<code>M-x shell</code>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-6.2" class="outline-3">
+<h3 id="sec-6.2"><span class="section-number-3">6.2</span> Managing Files and Dirs with Dired </h3>
+<div class="outline-text-3" id="text-6.2">
+
+
+<p>
+Directory Editor
+</p>
+<p>
+<code>C-x d</code>, or <code>C-x C-f</code> on a directory
+</p>
+<p>
+Most editing commands supported, such as <code>C-s</code>
+</p>
+<p>
+Specific dired commands are a single key. 
+</p>
+<ul>
+<li>
+Rename file: <code>R</code>
+</li>
+<li>
+Copy file: <code>C</code>
+</li>
+<li>
+Set permission on file: <code>M</code>
+</li>
+<li>
+Mark files for deletion: <code>d</code>
+</li>
+<li>
+Delete marked files: <code>x</code>
+</li>
+<li>
+Unmark files: <code>u</code>
+
+</li>
+</ul>
+
+<p>Remember <code>C-h m</code>. Let's try this now and see what else we can do. 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-6.3" class="outline-3">
+<h3 id="sec-6.3"><span class="section-number-3">6.3</span> File backups </h3>
+<div class="outline-text-3" id="text-6.3">
+
+
+<p>
+Emacs automatically creates timely backups of your files. You will
+see these in the directory of the file being edited. 
+</p>
+<p>
+Backup Files: Previous copy of the file. Tilda (~~~) 
+</p>
+<p>
+Auto-Save files: Current copy of the file prior to saving
+explicitly. Gets updated frequently and on system errors. Hashes
+surround files. <code>#filename#</code>
+</p>
+
+
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: Mishal Awadah
+<a href="mailto:emish@Mishal-Macbook">&lt;emish@Mishal-Macbook&gt;</a>
+</p>
+<p class="date"> Date: 2012-02-14 19:36:49 EST</p>
+<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
+</div>
+</div>
+</body>
+</html>
