@@ -10,15 +10,9 @@
 [[file:../img/zoned_gnu.jpeg]]
 #+end_center
 
-<<<<<<< HEAD
-[[https://github.com/emacsclub/emacsclub][Emacs Club Github]]
 
-[[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add Yourself to the Listserve]]
-
-[[file:org_tutorial.org][Org Tutorial]]
-=======
 * Links
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
  - [[file:org_tutorial.org][Org-Mode Tutorial]]
  - [[https://github.com/emacsclub/emacsclub][Github Page]]
->>>>>>> org-site
+ - [[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add yourself to the listserve]]
