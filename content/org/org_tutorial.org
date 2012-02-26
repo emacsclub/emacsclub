@@ -1,10 +1,11 @@
-#+TITLE:     Org-mode Tutorial / Cheat Sheet
 #+AUTHOR:    Mishal Awadah
+#+EMAIL:     
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+SETUPFILE: ../org-templates/level-0.org
-#+OPTIONS:  num:nil
-#+OPTIONS:   author:t email:nil
+#+OPTIONS:   author:t
+
+Org-mode Tutorial / Cheat Sheet
 
 #+begin_center
 Common tasks in org-mode
@@ -167,21 +168,6 @@ Common tasks in org-mode
   ~C-c C-e~ will show you the options available in a separate buffer. Common 
   ones are text, html, and latex. You can get PDFs by converting to latex, but
   you need to have a LaTeX environment installed on your system to use this.
-
-#+TITLE:     different title
-#+AUTHOR:    Mishal Awadah
-#+EMAIL:     emish@Mishal-Macbook
-#+DATE:      2012-02-07 Tue
-#+DESCRIPTION: 
-#+KEYWORDS: 
-#+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
-#+EXPORT_SELECT_TAGS: export
-#+EXPORT_EXCLUDE_TAGS: noexport
-#+LINK_UP:   
-#+LINK_HOME: ../html/index.html
 
 ** Export Options (~C-c C-e t~)
    When org files are exported, certain variables are set automatically but
