@@ -1,22 +1,24 @@
 #+TITLE:     Emacs Club
 #+AUTHOR:    Mishal Awadah
-#+EMAIL:     emish@Mishal-Macbook.local
-#+DATE:      2012-02-01 Wed
-#+DESCRIPTION: 
-#+KEYWORDS: 
+#+DESCRIPTION: The official website for the University of Pennsylvania Emacs Club
+#+KEYWORDS:  emacs
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+OPTIONS:   author:nil email:nil
-#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
-#+EXPORT_SELECT_TAGS: export
-#+EXPORT_EXCLUDE_TAGS: noexport
+#+SETUPFILE: ../org-templates/level-0.org
+#+OPTIONS:   author:nil email:nil toc:nil
 
-
+#+begin_center
 [[file:../img/zoned_gnu.jpeg]]
+#+end_center
 
+<<<<<<< HEAD
 [[https://github.com/emacsclub/emacsclub][Emacs Club Github]]
 
 [[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add Yourself to the Listserve]]
 
 [[file:org_tutorial.org][Org Tutorial]]
+=======
+* Links
+ - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
+ - [[file:org_tutorial.org][Org-Mode Tutorial]]
+ - [[https://github.com/emacsclub/emacsclub][Github Page]]
+>>>>>>> org-site
