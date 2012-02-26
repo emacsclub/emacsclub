@@ -8,7 +8,7 @@
         ("org-notes"
          :base-directory ,(concat home "org/")
          :base-extension "org"  ; Filename suffix without dot
-         :publishing-directory ,(concat home "public_html/")
+         :publishing-directory ,(concat home "html/")
          :recursive t           ; includes subdirectories
          :publishing-function org-publish-org-to-html
          :headline-levels 4             ; Just the default for this project.
@@ -21,7 +21,7 @@
         ("org-static"
          :base-directory ,(concat home "org/")
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-         :publishing-directory ,(concat home "public_html/")
+         :publishing-directory ,(concat home "html/")
          :recursive t
          :publishing-function org-publish-attachment
          )
