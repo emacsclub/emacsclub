@@ -7,9 +7,15 @@
 #+OPTIONS:   author:nil email:nil toc:nil
 
 #+begin_center
+at the University of Pennsylvania, Dept. of Computer Science
+#+end_center
+
+#+begin_center
 [[file:../img/zoned_gnu.jpeg]]
 #+end_center
 
+* Next Meeting
+  Tuesday Feb 28 2012, 6:00pm in Levine 307. 
 
 * Links
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
