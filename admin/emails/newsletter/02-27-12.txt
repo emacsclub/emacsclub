@@ -1,0 +1,18 @@
+                         Emacs Club this Week
+                         ====================
+
+
+Command of the Week 
+~~~~~~~~~~~~~~~~~~~~
+
+  C-x C-= : Increase the font size of the current buffer. 
+  C-x C-- : Decrease the font size of the current buffer. 
+
+Next Session 
+~~~~~~~~~~~~~
+
+  The next Emacs Club meeting is on Tuesday Feb 28, at 6pm in Levine 307. 
+
+  We'll specifically go over working with Java under Emacs, and
+  whatever else anyone is interested in. 
+

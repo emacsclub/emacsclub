@@ -1,0 +1,23 @@
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+Emacs Club this Week
+
+* Command of the Week
+
+  C-x C-= : Increase the font size of the current buffer. 
+  C-x C-- : Decrease the font size of the current buffer. 
+
+* Next Session
+
+  The next Emacs Club meeting is on Tuesday Feb 28, at 6pm in Levine 307. 
+
+  We'll specifically go over working with Java under Emacs, and
+  whatever else anyone is interested in. 
+
