@@ -1,0 +1,82 @@
+* Meeting Notes 2012-02-28
+** Setup
+    - *Max Mintz*: What is this for?
+      - *Everyone*: Emacs club!
+      - *Max Mintz*: You're a bunch of geeks!
+    - *John*: Can I borrow your dongle?
+    - Zach proposes a golf-style competition (with the vim club).
+    - Zach is ordering pizza -- and sees a deal!
+      - *Lauren*: Don't get taken in by that deal! You have to order $10. That's the reason I had two salads and a pizza yesterday.
+    - *Adam Aviv*: So is there a rival vim club?
+      - *Zach*: They're still trying to get into text mode.
+** Java
+    - *Mish*: Who can give me a recursive find?
+      - *Adam* (slowly): ~find . -name~
+   - John actually starts talking about java.
+    - We watch the emacs java tutorial video, and add MST3000-style commentary.
+      - *Rafe*: This guy uses K&R for his indentation...
+      - *Andrew*: He also codes in Comic Sans!
+	- It's not Comic Sans, it's Liberation Silly.
+      - Zach really wants the autoindentation. Minus the font.
+    - *Mish*: Scanning for forkbombs? Why don't you use the forkbomb scanners.
+      - *Andrew*: I wanted to submit a forkbomb for 551.
+    - The java tools are out-of-date.
+      - *Andrew*: Has nobody used this thing in 15 years?
+      - *John*: That's a good question.
+      - They use JDK 1.4.
+    - John gets bored with figuring out Java versions and switches to playing
+      Minecraft.
+      - *Mish*: It's ridiculous! John has robots mining his shafts.
+      - He's programming robots in Lua.
+      - *John*: It should be rewritten in elisp.
+      - *Adam*: I don't get the point of Minecraft.
+	- *Mish*: Haven't you seen what everyone has built?
+	- *Adam*: I've ignored it.
+      - *Rafe*: You guys have seen stoogebot, right? They exploited the Quake
+        network protocol.
+      - Writing game hacks is difficult.
+	- *Rafe*: You have to have intimate knowledge of how everything works.
+	- *Andrew*: So intimate.
+    - *Mish*: Should we make our own JDE then?
+** yasnippet
+    - Andrew reintroduces himself.
+      - *Andrew*: Hi guys! My name is Andrew Braunstein.
+      - *Lauren*: Hi Andrew.
+      - *Zach*: Hi Andrew.
+    - *Andrew*: Every C program has a main function.
+      - *Rafe*: That's not true.
+    - Growl notifications appear on the projector (showing Andrew's laptop)
+      - *John Mayer*: sup zach
+      - *John Mayer*: meister that is
+    - Andrew opens a new Chrome window.
+      - *John*: emacsclub is on your Fave 8? Nice.
+    - *Andrew*: I don't know what yasnappits are installed for Java.
+      - Are you feeling lucky?
+        - Or he could just check, with yas/find-snippets.
+    - *Zach*: AC mode? How is that different from hippie-expand?
+    - Andrew can autocomplete the keyword "class" or the entire class template.
+      - *Andrew*: It's yasnippit and ac-mode working together!
+      - *Nick*: You can do the same thing in vim. [begins explaining]
+      - *John*: We don't care.
+    - The yasnippit is completed!
+      - *Andrew*: Aaah! Main!
+    - *John*: ~clifford = new Dog();~ !
+    - The author line is filled in.
+      - *Andrew*: Johan Andersson!
+    - Andrew autocompletes a list. It appears as ~List<Dog> bfd = new List<Dog>();~
+      - Rafe complains that you can't instantiate an interface, and thinks
+	this deficiency reflects poorly on the snippet library.
+      - But wait! One more tab will let you choose ArrayList or LinkedList!
+      - *Rafe*: Damn! They're smarter than I am. ... But what if I
+        want to use a TreeList?
+      - Now Rafe's just trolling.
+    - *Rafe*: I think we should all pitch in and get a Lisp machine.
+    - *Mish*: Why are you in vim?
+      - *Andrew*: This is less.
+      - *Mish*: So less is vim.
+      - Mish is disappointed.
+** The Aftermath
+   - We are now all playing with http://wwwtyro.github.com/keyzen .
+     - *Rafe*: SO IT HAS COME TO THIS
+     - Rafe has been waiting to make that xkcd reference the entire session.
+   - *Andrew*: Is that my dongle?
