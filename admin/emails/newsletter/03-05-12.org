@@ -1,0 +1,15 @@
+#+OPTIONS: toc:nil num:nil
+
+Emacs Club this Week
+
+* Command of the week
+  M-q : fill-paragraph
+
+  This will automatically resize your line to fit with the rest of a
+  paragraph. Convenient for text files.
+
+* Next Meeting
+  No meeting this week due to Spring Break. Enjoy your break!
+
+
+  
