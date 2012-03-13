@@ -15,10 +15,13 @@ at the University of Pennsylvania, Dept. of Computer Science
 #+end_center
 
 * Next Meeting
-  Tuesday Feb 28 2012, 6:00pm in Levine 307. 
+  Tuesday March 13th 2012, 6:00pm in Skirkanich 508.
 
 * Links
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
- - [[file:org_tutorial.org][Org-Mode Tutorial]]
  - [[https://github.com/emacsclub/emacsclub][Github Page]]
  - [[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add yourself to the listserve]]
+
+* Learn
+  - [[http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html][Awesome Emacs Tutorial]]
+  - [[file:org_tutorial.org][Org-Mode Tutorial]]
