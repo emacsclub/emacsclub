@@ -1,0 +1,38 @@
+#+TITLE:     Emacs Club this Week
+#+AUTHOR:    Emacs Club core
+#+EMAIL:     emacsclub-core@lists.seas.upenn.edu
+#+DATE:      2012-02-06 Mon
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+
+Welcome back everyone! I hope you all had a pleasant break.
+
+* Command of the Week
+
+  ~C-l~ Center your cursor, then place it at the top or bottom of the screen by
+  doing this twice more. Placing it at the top is handy if you are
+  about to write a new function, class, etc.. At the bottom is useful
+  if you need to reference something in your code directly above your
+  cursor. 
+
+* Meeting Today
+  
+  Today's Meeting will take place at 6pm as usual in the Skirkanich
+  Skyview Lounge SKR 508. 
+
+  We'll take a stab at some more of our emacs topics, including
+  programming in C and setting up a sophisticated project management
+  system for C/C++ projects. Please come with any topics you would
+  like to discuss!
+
+
+  The Emacs Club Core
+  http://www.emacsclub.com
