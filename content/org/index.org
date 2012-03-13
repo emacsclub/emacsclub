@@ -30,3 +30,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 ** [[http://doxymacs.sourceforge.net/][Doxymacs]]
    This will auto-generate [[http://www.stack.nl/~dimitri/doxygen/][Doxygen]] style comments for your source code
    by introspection. 
+** [[http://www.emacswiki.org/emacs/InteractivelyDoThings][Ido]]
+   This package makes searching for files infinitely easier. Here's a
+   great [[http://www.masteringemacs.org/articles/2010/10/10/introduction-to-ido-mode/][tutorial]]. It's also included in the [[https://github.com/technomancy/emacs-starter-kit][Emacs Starter Kit]].
+
