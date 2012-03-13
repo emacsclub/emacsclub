@@ -15,7 +15,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 #+end_center
 
 * Next Meeting
-  Tuesday March 13th 2012, 6:00pm in Skirkanich 508.
+  Tuesday March 20th 2012, 6:00pm in Skirkanich 508.
 
 * Links
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
@@ -25,3 +25,8 @@ at the University of Pennsylvania, Dept. of Computer Science
 * Learn
   - [[http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html][Awesome Emacs Tutorial]]
   - [[file:org_tutorial.org][Org-Mode Tutorial]]
+
+* Favorites
+** [[http://doxymacs.sourceforge.net/][Doxymacs]]
+   This will auto-generate [[http://www.stack.nl/~dimitri/doxygen/][Doxygen]] style comments for your source code
+   by introspection. 
