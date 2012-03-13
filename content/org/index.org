@@ -11,6 +11,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 #+end_center
 
 #+begin_center
+#+ATTR_HTML: width="400"
 [[file:../img/zoned_gnu.jpeg]]
 #+end_center
 
