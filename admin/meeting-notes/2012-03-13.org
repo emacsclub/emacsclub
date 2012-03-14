@@ -20,4 +20,4 @@
     - We complain about Eclipse and Java #ToughPennLife
     - Rafe leaves to teach students how to write classes in Java. Meeting notetaking ends.
 ** Postmortem
-    - The notetaker, Rafe, realizes that his notes pale in comparison to the almight Croop.
+    - The notetaker, Rafe, realizes that his notes pale in comparison to the almighty Croop.
