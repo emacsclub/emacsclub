@@ -1,0 +1,23 @@
+* Meeting Notes 2012-03-13
+** Doxymacs
+    - Zach is about to introduce a plugin to create Doxygen comments. John begs the question: what is Doxygen? Emacs club becomes Doxygen club.
+    - Zach believes that hyperlinks and manpages are hardcore.
+    - Mish remarks on Homebrew's viability on WTF Lion, where W = whatever
+    - John is happy that make took only 84 seconds to compile Doxygen. Rafe asserts that apt-get only took 5 seconds. John says "that's a good one." Mish then says "Doxygen is available on the App Store"
+    - Obligatory dongle reference.
+    - We discuss possible package projects.
+      - Actually making a new directory when you find a file in a directory that doesn't exist?
+      - Saying M-x some-command-that-doesn't-exist runs it in bash?
+    - As we marvel at the simplicity of package installation in Debian, John loses all excitement when he realizes Doxymacs didn't link on his Mac.
+    - *Zach*: you're doing it old-school? Like MacPorts?
+    - Rafe realizes that in half an hour, we've done nothing but try to install software on Mac
+** Fiddling around with c-common-mode
+    - Rafe sees the "Please clean filter" message projected and tells Zach that he thinks Zach's computer is dirty
+    - *Mish* Why are you raising the blinds? It's very hard to see.
+      - *Zach*: It's really nice, but it is really hard to see
+    - We learn of c-toggle-auto-newline
+    - *Mish*: It's fun to kill whitespace
+    - We complain about Eclipse and Java #ToughPennLife
+    - Rafe leaves to teach students how to write classes in Java. Meeting notetaking ends.
+** Postmortem
+    - The notetaker, Rafe, realizes that his notes pale in comparison to the almighty Croop.
