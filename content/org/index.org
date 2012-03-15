@@ -22,6 +22,7 @@ at the University of Pennsylvania, Dept. of Computer Science
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
  - [[https://github.com/emacsclub/emacsclub][Github Page]]
  - [[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add yourself to the listserve]]
+ - [[https://github.com/emacsclub/emacsclub/tree/master/admin/emails/newsletter][Newsletter]]
 
 * Learn
   - [[http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html][Awesome Emacs Tutorial]]
