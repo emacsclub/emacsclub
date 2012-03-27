@@ -27,6 +27,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 * Learn
   - [[http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html][Awesome Emacs Tutorial]]
   - [[file:org_tutorial.org][Org-Mode Tutorial]]
+  - [[file:flymake.org][Flymake Setup Tutorial]]
 
 * Favorites
 ** [[http://doxymacs.sourceforge.net/][Doxymacs]]
