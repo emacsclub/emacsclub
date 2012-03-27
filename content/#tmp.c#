@@ -1,0 +1,22 @@
+/**
+ * @file   tmp.c
+ * @author Mishal Awadah <emish@seas775>
+ * @date   Thu Mar 15 17:24:30 2012
+ * 
+ * @brief  This file is a test. 
+ * 
+ * 
+ */
+
+
+/** 
+ * 
+ * 
+ * @param argc 
+ * @param argv 
+ * 
+ * @return 
+ */
+int main (int argc, char **argv) {
+
+}

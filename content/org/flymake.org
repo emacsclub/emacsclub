@@ -1,0 +1,55 @@
+#+AUTHOR:    Mishal Awadah
+#+EMAIL:     
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+SETUPFILE: ../org-templates/level-0.org
+#+OPTIONS:   author:t
+
+Flymake Tutorial
+
+* Requirements
+  You will need Flymake to be installed in Emacs, which is already
+  the case if you have Emacs version 23 or higher.
+* Setup 
+  
+** C Files
+   You need to have a C file you will be editing, with its respective
+   Makefile already in the directory. Your Makefile should include 
+   the following for flymake to use
+
+   #+begin_src BSDmakefile-mode
+   .PHONY: check-syntax
+   
+   check-syntax:
+       $(CC) $(CFLAGS) -Wall -Wextra -0pedantic -fsyntax-only $(SRCS)
+   #+end_src
+       
+   Make sure you use a ~<TAB>~ under the target!
+
+** Init file configuration
+   Place the following code in your emacs init file 
+
+   #+begin_src elisp-mode
+   ;; Customize how flymake displays the errors
+   '(flymake-errline ((((class color)) (:underline "OrangeRed"))))
+   '(flymake-warnline ((((class color)) (:underline "yellow"))))
+   
+   ;; Define our own flymake error function
+   (defun my-flymake-show-next-error ()
+     (interactive)
+     (flymake-goto-next-error)
+     (flymake-display-err-menu-for-current-line))
+   
+   ;; And set it to the shortcut C-c C-v
+   (add-hook 'c-mode-common-hook
+     (lambda ()
+       (flymake-mode t)
+       (global-set-key "\C-c\C-v" 'my-flymake-show-next-error)))
+   #+end_src
+
+   This will set ~C-c C-v~ to show the next error in your c files,
+   and makes the errors display a little more clearly. 
+
+* References
+
+  - [[http://www.credmp.org/?p=53]]
