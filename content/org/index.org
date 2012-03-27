@@ -15,8 +15,8 @@ at the University of Pennsylvania, Dept. of Computer Science
 [[file:../img/zoned_gnu.jpeg]]
 #+end_center
 
-* Next Meeting
-  Tuesday March 20th 2012, 6:00pm in Skirkanich 508.
+* Meetings
+  Every Tuesday at 6:00pm in Skirkanich 508.
 
 * Links
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
