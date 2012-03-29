@@ -4,6 +4,7 @@
 #+KEYWORDS: 
 #+SETUPFILE: ../org-templates/level-0.org
 #+OPTIONS:   author:t
+#+INCLUDE: "../org-templates/analytics.org"
 
 Org-mode Tutorial / Cheat Sheet
 
