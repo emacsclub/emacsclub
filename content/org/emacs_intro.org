@@ -1,7 +1,16 @@
-Emacs Intro
+#+TITLE:     An Introduction to Emacs
+#+AUTHOR:    Mishal Awadah
+#+DESCRIPTION: A brief but thorough introduction to Emacs for enthusiastic learners.
+#+KEYWORDS:  emacs tutorial introduction 
+#+LANGUAGE:  en
+#+SETUPFILE: ../org-templates/level-0.org
+#+OPTIONS:   author:nil email:nil toc:nil f:nil
+#+INCLUDE: "../org-templates/analytics.org"
 
- -- This introduction borrows heavily from Andy Harris's Emacs Guide,
- Prima Tech 2000. 
+#+begin_quote
+-- This introduction borrows heavily from Andy Harris's Emacs Guide,
+Prima Tech 2000. 
+#+end_quote
 
 * Why choose emacs
 

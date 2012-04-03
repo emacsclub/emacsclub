@@ -9,3 +9,5 @@
 #+LINK_HOME: index.html
 #+STYLE:    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 
+## Remove footnotes; they popped up after introducing analytics.
+#+OPTIONS: f:nil
