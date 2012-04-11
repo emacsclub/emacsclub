@@ -1,0 +1,70 @@
+* Meeting Notes 2012-04-10
+** The Greater Emacs Community
+   - Emacs is "this awesome tool that gets overlooked, like people
+     have some amazing sword in their cupboard and instead hack away
+     at zombies with spoons." - [[http://emacsconf.herokuapp.com/][Nic Ferrier]]
+** Focus group: The [[http://en.wikipedia.org/wiki/Broken_windows_theory][Broken Windows Theory]]
+   - John got yelled at for drawing on the Moore 100 windows with
+     dry-erase markers (it doesn't damage the windows, but "we don't
+     want to encourage it").
+     - *John*: Just put up a sign that says to erase when you're
+       done. And also have cameras and lasers.
+     - *John*: Anyway, that ends the focus group discussion.
+** Focus group: The energy crisis
+   - Gas is expensive in California, unless you have a Tesla.
+   - *Zach*: Have you ever driven cross-country?
+     - *Mish*: Not this country.
+** Focus group: Climate change
+   - The Sky Lounge is a greenhouse.
+     - *Rafe*: This is not an efficiently-designed room for the
+       summertime.
+** Focus group: Rafe's Potbelly Experience
+   - This isn't actually a focus group, it's just a survey thing they
+     sent him.
+** Focus group: Time management
+   - *Rafe*: I love how I can tell people I'm in a meeting when I'm
+     here.
+** Focus group: Emacs 24
+   - *Zach*: It works... most of the time. Which is also my experience
+     with emacs 23.
+** Focus group: Emacs Uptime
+   - *Rafe*: Unless you have legendary emacs uptime, that won't be
+     sustainable.
+     - Rafe's emacs uptime is 3 years.
+   - *Andrew*: I get these popups that say "Emacs has crashed! Emacs
+     has crashed!" and none of my emacs instances actually crashed.
+     - It's the OS who cried SIGWOLF.
+** Focus group: Smex
+   - Mish's video card is kablooey.
+   - smex gives Mish some weird errors.
+   - Mish reprimands Rafe for not having ido.
+     - *Mish*: You needed to have that a long time ago.
+     - *Zach*: A long long time ago.
+   - ~M-x smex~ is fun to pronounce.
+   - With his newfound autocomplete powers, Zach discovers the function
+     ~icicle-doremi-increment-swank-prefix-length+~
+** Focus group: Flymake
+   - Andrew found someone who had the exact same problem he had with
+     flymake, except when he did what that guy did to fix it, it
+     didn't work for him.
+   - *Rafe*: Who were you, DenverCoder9? What did you see?
+** Focus group: Music of the Spheres
+   - The sun passes through the rooftop lounge of a different highrise
+     from last time. The earth has rotated!
+     - Rafe makes things up about astrophysics.
+       - *Rafe*: The MOOOOOON!
+** Focus group: Backwards compatibility
+   - *Zach*: They wouldn't take it out. It's a really useful feature.
+     - *Rafe*: Stallman works in mysterious ways.
+** Focus group: Computer graphics
+   - Rafe is impressed by the Electric Sheep.
+     - *Rafe*: I'm glad I don't have this screen saver. I wouldn't get
+       anything done.
+     - *Zach*: Yeah, the first couple years you have it it takes up a
+       lot of your time.
+     - *John*: If you ever go to Brent Yorgey's office hours, distract
+       him and then watch his screensaver. It's xmonad, so it's all
+       Haskell people writing Klein bottle screensavers.
+** Focus group: Dongle
+   - I have to leave early, but it is safe to assume a dongle
+     reference was made in my absence.
