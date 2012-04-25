@@ -1,0 +1,55 @@
+* Meeting Notes 2012-04-03
+** Setup
+   - Mish put Google Analytics up last week. We've already gotten three
+     visitors from Zurich.
+   - Special thanks to Michael S., who accidentally left his
+     (working!) power strip in the room.
+   - A diagram of Todun's 555 project is on the whiteboard.
+     - The databases were once cylinders, as is traditional, but the need for
+       more writing space transformed them into conical frusta.
+   - The Box O' Sandwiches arrives, carried by John, Mish, and Rafe.
+   - Zach and John discuss matters of the Haskell.
+     - Rafe complains about lack of purity in purity restrictions.
+     - *Mish*: These kids are Haskelling it up.
+   - Happy birthday John!
+     - ~M-x animate-birthday-present~
+     - The birthday present is martini-swan-dived, then dissociated.
+** Tutorial (Reprise)
+   - We're all eating, so Mish does an Emacs tutorial.
+   - *Mish*: It assumes you're smart, so that'll help.
+   - *Mish*: Emacs is self-documenting. That's what makes it better
+     than all the other editors.
+   - In the midst of his presentation, Mish is chatted at.
+     - *Lucy*: MISH
+     - *Lucy*: CAN ALL OF MY BEST FRIENDS AT PENN JUST HANG OUT AT ONE PLACE
+   - *Mish*: Up down left right those let you move around. You can
+     also use C-f C-b C-n C-p.
+     - ~C-p C-p C-n C-n C-b C-f C-b C-f b a~
+   - Mish cascades frame-splitting infinitely.
+     - *Rafe*: I don't believe you can actually go infinitely.
+   - He then cycles through the frames.
+     - *Mish*: The order is top to bottom, left to right.
+     - *Andrew*: Really? I always thought it was just random.
+   - Finally, he kills the buffers.
+     - ~C-x C-b C-x o d d x y y~
+     - *Mish*: The buffer displaying the buffers is also a buffer, and
+       I can kill it too. 
+     - *Rafe*: That's mean.
+   - *Mish*: ~M-x shell~ is cool and handy if you never want to leave
+     emacs. You should never want to leave emacs.
+** Flymake
+   - We browse the java flymake docs. Rafe didn't know that java had
+     lint built in.
+     - *Rafe*: I'll run it on one of my students' files, see what kind
+       of output we get.
+     - *man javac*: -Xlint Enable all recommended warnings. In this release,
+       all available warnings are recommended.
+     - This isn't actually lint. This is disappointing.
+   - yasnippit autocompletes ~defun~ for Mish. He tabs to the docstring line.
+     - *Andrew*: You can just leave it blank.
+     - *Rafe*: No, that breaks the invariant of emacs being all
+       self-documenting.
+   - Next week will include code style checking.
+     - *Zach*: All the cool kids are checking their styles.
+   - John raises the blinds, singing the theme from 2001.
+   - An hour later, Mish retrieves his dongle.
