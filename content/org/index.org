@@ -6,6 +6,7 @@
 #+SETUPFILE: ../org-templates/level-0.org
 #+OPTIONS:   author:nil email:nil toc:nil
 #+INCLUDE: "../org-templates/analytics.org"
+#+UP_LINK: sitemap.org
 
 #+begin_center
 at the University of Pennsylvania, Dept. of Computer Science
@@ -20,7 +21,7 @@ at the University of Pennsylvania, Dept. of Computer Science
   Every Tuesday at 6:00pm in Skirkanich 508.
 
 * Links
- - [[https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes][Meeting Notes]]
+ - [[file:meeting-notes/sitemap.org][Meeting Notes]]
  - [[https://github.com/emacsclub/emacsclub][Github Page]]
  - [[http://lists.seas.upenn.edu/mailman/listinfo/emacsclub][Add yourself to the listserve]]
  - [[https://github.com/emacsclub/emacsclub/tree/master/admin/emails/newsletter][Newsletter]]

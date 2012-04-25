@@ -342,3 +342,17 @@ Common tasks in org-mode
 *** Hyperlinks
 	Hyperlinks are managed by links and automatically converted to their 
 	html counterparts. See [[Linking Files]]. 
+
+* Publishing
+  Publishing is simply automating your export pipeline. When you have
+  many files that require export, it is a good idea to create a
+  publishing script for this. 
+
+** Publishing Script
+   To enable project publishing with org-mode, create a local file in
+   the project directory with the instructions. In our example we have
+   named it ~org_publish.el~. 
+
+#+INCLUDE: ../org_publish.el src emacs-lisp
+
+

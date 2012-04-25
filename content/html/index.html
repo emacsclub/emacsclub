@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
                "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Emacs Club</title>
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="Emacs Club"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2012-04-03 13:29:04 EDT"/>
+<meta name="generated" content="2012-04-25 15:50:23 EDT"/>
 <meta name="author" content="Mishal Awadah"/>
 <meta name="description" content="The official website for the University of Pennsylvania Emacs Club"/>
 <meta name="keywords" content="emacs"/>
@@ -21,6 +21,9 @@ lang="en" xml:lang="en">
   .target { }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
   p.verse { margin-left: 3% }
   pre {
 	border: 1pt solid #AEBDCC;
@@ -31,10 +34,23 @@ lang="en" xml:lang="en">
         overflow:auto;
   }
   table { border-collapse: collapse; }
-  td, th { vertical-align: top; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
   dt { font-weight: bold; }
   div.figure { padding: 0.5em; }
   div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
   .linenr { font-size:smaller }
   .code-highlighted {background-color:#ffff00;}
   .org-info-js_info-navigation { border-style:none; }
@@ -43,7 +59,7 @@ lang="en" xml:lang="en">
   .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
                                  font-weight:bold; }
   /*]]>*/-->
-</style>
+</style><link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 <script type="text/javascript">
 <!--/*--><![CDATA[/*><!--*/
@@ -67,15 +83,20 @@ lang="en" xml:lang="en">
  }
 /*]]>*///-->
 </script>
+
 </head>
 <body>
-<div id="content">
 <div id="org-div-home-and-up" style="text-align:right;font-size:70%;white-space:nowrap;">
  <a accesskey="h" href="index.html"> UP </a>
  |
  <a accesskey="H" href="index.html"> HOME </a>
 </div>
 
+<div id="preamble">
+
+</div>
+
+<div id="content">
 <h1 class="title">Emacs Club</h1>
 
 
@@ -108,89 +129,87 @@ lang="en" xml:lang="en">
 
 
 <div id="outline-container-1" class="outline-2">
-<h2 id="sec-1">Meetings </h2>
+<h2 id="sec-1">Meetings</h2>
 <div class="outline-text-2" id="text-1">
 
-<p>Every Tuesday at 6:00pm in Skirkanich 508.
+<p>  Every Tuesday at 6:00pm in Skirkanich 508.
 </p>
 </div>
 
 </div>
 
 <div id="outline-container-2" class="outline-2">
-<h2 id="sec-2">Links </h2>
+<h2 id="sec-2">Links</h2>
 <div class="outline-text-2" id="text-2">
 
 <ul>
-<li>
-<a href="https://github.com/emacsclub/emacsclub/tree/master/admin/meeting-notes">Meeting Notes</a>
+<li><a href="meeting-notes/sitemap.html">Meeting Notes</a>
 </li>
-<li>
-<a href="https://github.com/emacsclub/emacsclub">Github Page</a>
+<li><a href="https://github.com/emacsclub/emacsclub">Github Page</a>
 </li>
-<li>
-<a href="http://lists.seas.upenn.edu/mailman/listinfo/emacsclub">Add yourself to the listserve</a>
+<li><a href="http://lists.seas.upenn.edu/mailman/listinfo/emacsclub">Add yourself to the listserve</a>
 </li>
-<li>
-<a href="https://github.com/emacsclub/emacsclub/tree/master/admin/emails/newsletter">Newsletter</a>
-
+<li><a href="https://github.com/emacsclub/emacsclub/tree/master/admin/emails/newsletter">Newsletter</a>
 </li>
 </ul>
+
+
 </div>
 
 </div>
 
 <div id="outline-container-3" class="outline-2">
-<h2 id="sec-3">Learn </h2>
+<h2 id="sec-3">Learn</h2>
 <div class="outline-text-2" id="text-3">
 
 <ul>
-<li>
-<a href="http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html">Awesome Emacs Tutorial</a>
+<li><a href="http://www.cs.iupui.edu/~aharris/emchap/EmacsGuide.html">Awesome Emacs Tutorial</a>
 </li>
-<li>
-<a href="org_tutorial.html">Org-Mode Tutorial</a>
+<li><a href="org_tutorial.html">Org-Mode Tutorial</a>
 </li>
-<li>
-<a href="flymake.html">Flymake Setup Tutorial</a>
-
+<li><a href="flymake.html">Flymake Setup Tutorial</a>
 </li>
 </ul>
+
+
 </div>
 
 </div>
 
 <div id="outline-container-4" class="outline-2">
-<h2 id="sec-4">Favorites </h2>
+<h2 id="sec-4">Favorites</h2>
 <div class="outline-text-2" id="text-4">
 
 
 </div>
 
-<div id="outline-container-4.1" class="outline-3">
-<h3 id="sec-4.1"><a href="http://doxymacs.sourceforge.net/">Doxymacs</a> </h3>
-<div class="outline-text-3" id="text-4.1">
+<div id="outline-container-4-1" class="outline-3">
+<h3 id="sec-4-1"><a href="http://doxymacs.sourceforge.net/">Doxymacs</a></h3>
+<div class="outline-text-3" id="text-4-1">
 
-<p>This will auto-generate <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> style comments for your source code
-by introspection. 
+<p>   This will auto-generate <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> style comments for your source code
+   by introspection. 
 </p></div>
 
 </div>
 
-<div id="outline-container-4.2" class="outline-3">
-<h3 id="sec-4.2"><a href="http://www.emacswiki.org/emacs/InteractivelyDoThings">Ido</a> </h3>
-<div class="outline-text-3" id="text-4.2">
+<div id="outline-container-4-2" class="outline-3">
+<h3 id="sec-4-2"><a href="http://www.emacswiki.org/emacs/InteractivelyDoThings">Ido</a></h3>
+<div class="outline-text-3" id="text-4-2">
 
-<p>This package makes searching for files infinitely easier. Here's a
-great <a href="http://www.masteringemacs.org/articles/2010/10/10/introduction-to-ido-mode/">tutorial</a>. It's also included in the <a href="https://github.com/technomancy/emacs-starter-kit">Emacs Starter Kit</a>.
+<p>   This package makes searching for files infinitely easier. Here's a
+   great <a href="http://www.masteringemacs.org/articles/2010/10/10/introduction-to-ido-mode/">tutorial</a>. It's also included in the <a href="https://github.com/technomancy/emacs-starter-kit">Emacs Starter Kit</a>.
 </p>
 </div>
 </div>
 </div>
-<div id="postamble">
-<p class="date"> Date: 2012-04-03 13:29:04 EDT</p>
-<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
 </div>
+
+<div id="postamble">
+<p class="date">Date: 2012-04-25 15:50:23 EDT</p>
+<p class="creator">Org version 7.8.09 with Emacs version 23</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
 </div>
 </body>
 </html>

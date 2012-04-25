@@ -11,3 +11,4 @@
 
 ## Remove footnotes; they popped up after introducing analytics.
 #+OPTIONS: f:nil
+ 
