@@ -1,0 +1,11 @@
+#+TITLE: Meeting Notes Directory
+
+   + [[file:2012-01-19.org][Meeting Notes 2012-01-19]]
+   + [[file:2012-01-31.org][Meeting Notes 2012-01-31]]
+   + [[file:2012-02-07.org][Meeting Notes 2012-02-07]]
+   + [[file:2012-02-14.org][Meeting Notes 2012-02-14]]
+   + [[file:2012-02-21.org][Meeting Notes 2012-02-21]]
+   + [[file:2012-02-28.org][Meeting Notes 2012-02-28]]
+   + [[file:2012-03-13.org][Meeting Notes 2012-03-13]]
+   + [[file:2012-03-20.org][Meeting Notes 2012-03-20]]
+   + [[file:2012-03-27.org][Meeting Notes 2012-03-27]]

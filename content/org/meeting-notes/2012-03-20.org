@@ -1,0 +1,45 @@
+#+SETUPFILE: ../../org-templates/meeting-notes.org
+#+INCLUDE:   "../../org-templates/analytics.org"
+
+Meeting Notes 2012-03-20
+
+* Meeting Notes 2012-03-20
+** Trolling
+   - First item on the agenda: Trolling.
+   - *John*: Can I borrow your dongle?
+     - He wants to show off his globe demo.
+     - *Mish*: That has nothing to do with emacs!
+     - *John*: It was written with emacs!
+     - It's a spinning globe, backed by real data.
+       - *John*: Real data that I generate on the fly.
+   - *Andrew*: Look at this sticker I got! "Net neutrality, I won't waffle on."
+     - Rafe reorganizes the words to make more sense.
+   - A fly is trolling us.
+     - *Rafe*: Stay away from my food!
+   - *Mish*: Have we trolled enough?
+** A Hunter-Gatherer Society
+   - There is much discussion as to whether or not "Food" should be an item on
+     the agenda.
+   - *Rafe*: Is Koreana Korean food?
+   - Andrew is assigned to getting food, via the nose game. The nose game will
+     be the process for assigning food-gathering for all future meetings. 
+     - *Rafe*: We should put that in our bylaws.
+** Our Project
+   - *Mish*: We're going to make a package by the end of the semeseter.
+   - We discuss packages to write.
+   - *Rafe*: Emacs MySpace client.
+   - Emacs Starter Kit is too bloated. Mish suggests Penn Starter Kit.
+     - *Rafe*: Is there an emacs mode for LC4?
+     - PennSim integration!
+   - *Mish*: Any other ideas?
+     - *John*: Whoa.
+** Potluck
+   - *Mish*: Zach asked me to host an .emacs init file potluck.
+     - Everyone brings their .emacs files.
+   - *Andrew*: I keep getting "emacs quit unexpectedly." But I'm not running
+     emacs.
+   - *Mish*: Give me the dongle.
+     - John's spinning globe is no longer projected :(
+   - *Mish*: At some point I want to figure out how to use email!
+   - Andrew doesn't organize his .emacs. He does ~cat >> .emacs~ whenever he
+     wants to add anything.
