@@ -1,9 +1,9 @@
 #+SETUPFILE: ../../org-templates/meeting-notes.org
 #+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Matt Croop
 
 Meeting Notes 2012-02-21
 
-* Meeting Notes 2012-02-21
   - Tess mentions to Max Mintz that she's learning vim. He admonishes
     her for choosing the wrong editor.
     - *Tess*: His eyes lit up and flames came out of his nostrils.

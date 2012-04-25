@@ -1,9 +1,9 @@
 #+SETUPFILE: ../../org-templates/meeting-notes.org
 #+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Matt Croop
 
 Meeting Notes 2012-02-14
 
-* Meeting Notes 2012-02-14
   - According to github, emacsclub is 95.6% JavaScript and 4.4% Emacs
     Lisp. Bootstrap, y u no in elisp?
   - According to the SEAS calendars, "Pulak Mittal Vim Club" has a meeting

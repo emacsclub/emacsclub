@@ -1,5 +1,9 @@
 #+TITLE: Main Sitemap
 
+   + [[file:emacs_intro.org][An Introduction to Emacs]]
+   + [[file:index.org][Emacs Club]]
+   + [[file:flymake.org][Flymake Tutorial]]
+   + [[file:org_tutorial.org][Org-mode Tutorial / Cheat Sheet]]
    + meeting-notes
      + [[file:meeting-notes/2012-01-19.org][Meeting Notes 2012-01-19]]
      + [[file:meeting-notes/2012-01-31.org][Meeting Notes 2012-01-31]]
@@ -10,8 +14,6 @@
      + [[file:meeting-notes/2012-03-13.org][Meeting Notes 2012-03-13]]
      + [[file:meeting-notes/2012-03-20.org][Meeting Notes 2012-03-20]]
      + [[file:meeting-notes/2012-03-27.org][Meeting Notes 2012-03-27]]
+     + [[file:meeting-notes/2012-04-03.org][Meeting Notes 2012-04-03]]
+     + [[file:meeting-notes/2012-04-10.org][Meeting Notes 2012-04-10]]
      + [[file:meeting-notes/sitemap.org][Meeting Notes Directory]]
-   + [[file:emacs_intro.org][An Introduction to Emacs]]
-   + [[file:index.org][Emacs Club]]
-   + [[file:flymake.org][Flymake Tutorial]]
-   + [[file:org_tutorial.org][Org-mode Tutorial / Cheat Sheet]]

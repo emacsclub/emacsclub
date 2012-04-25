@@ -1,60 +1,60 @@
 #+SETUPFILE: ../../org-templates/meeting-notes.org
 #+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Matt Croop
 
 Meeting Notes 2012-01-19
 
-* Meeting Notes 2012-01-19
-** We enter a meditation of M-x zone.
-** Guest lectures
-   - Perry should give a lecture sometime. Probably not the first one though.
-** Editor usage
-   - The outbreak of vim-usage on campus is probably Sam Panzer's fault.
-   - A lot of professors use emacs.
-     - Max Mintz uses chalk.
-   - Andrew recounts the story of some guy.
-     - *Andrew* : Do you know what emacs does?
-     - *Guy* : I know you can play tetris in it.
-** Topics
-   - *Zach* : I wanna learn awesome shit. Also some lisp.
-     - Zach also wants to learn how to get line numbers to work.
-   - Andrew proposes extending to general command-line fu.
-     - *Zach* : We should just call it the neckbeard club.
-   - *Andrew* : EMACS COMMAND OF THE WEEK!
-** Administration
-   - *John* : Treasury? We don't have money.
-   - John will be pressing the "send email" button.
-   - *John* : Gauging interest in leadership... I'm going to do all the work,
-              I think you all decided on that.
-     - John Mayer for president!
-   - *John* : We need to add all the cool things you do to the repo.
-     - *Mish* : Add them! You said you'd do everything.
-     - *John* : I'm delegating.
-** Mobile Devices
-   - *Andrew* : They ported vim to the iPad. We should port emacs to the iPad.
-   - *John* : Is the issh screen too small to do anything?
-     - *Andrew, Zach* : Yes.
-     - *Zach* : You can restart your server from your phone but that's about it.
-     - *Andrew* : You can also ssh in and forkbomb eniac.
-       - John will be targeting a random 505 student with forkbombs.
-** Publicity
-   - *Andrew* : We should get CJ to post to everyone in his class last semester.
-   - *Zach* : I can just post on Piazza and force it to send to everyone.
-   - We will be collaboratively editing the email.
-     - *Mish* : Google doc!
-     - *Andrew* : Emacs!
-   - Copying text from emacs into gmail is inefficient, compared to sending mail from emacs.
-   - *John* : I really want our motto to be Never Too Late To :q
-     - Never use vim. If you don't have emacs, use nano, or ed.
-   - Zach requests pizza.
-     - *John* : If we get food, then we're set.
-** Meeting Structure
-   - Separate meetings for beginners and power users (though anyone can come to both).
-     - *Mish* : If nobody shows up to the lecture we can just have one of our hack sessions.
-   - We need a logo.
-** Misc.
-   - Some guy stops by to retreive his gloves.
-   - John registers localbriefs.com, for briefs of local news. Then he got the mental image of "local underwear."
-     - *John* : I think I could still spin it into something useful though.
-   - *Mish* : You can mark sections with C-<SPC> and the arrow keys.
-     - *Andrew* : What arrow keys?
-   - Zach is already that guy who plays with M-x zone.
+* We enter a meditation of M-x zone.
+* Guest lectures
+  - Perry should give a lecture sometime. Probably not the first one though.
+* Editor usage
+  - The outbreak of vim-usage on campus is probably Sam Panzer's fault.
+  - A lot of professors use emacs.
+    - Max Mintz uses chalk.
+  - Andrew recounts the story of some guy.
+    - *Andrew* : Do you know what emacs does?
+    - *Guy* : I know you can play tetris in it.
+* Topics
+  - *Zach* : I wanna learn awesome shit. Also some lisp.
+    - Zach also wants to learn how to get line numbers to work.
+  - Andrew proposes extending to general command-line fu.
+    - *Zach* : We should just call it the neckbeard club.
+  - *Andrew* : EMACS COMMAND OF THE WEEK!
+* Administration
+  - *John* : Treasury? We don't have money.
+  - John will be pressing the "send email" button.
+  - *John* : Gauging interest in leadership... I'm going to do all the work,
+             I think you all decided on that.
+    - John Mayer for president!
+  - *John* : We need to add all the cool things you do to the repo.
+    - *Mish* : Add them! You said you'd do everything.
+    - *John* : I'm delegating.
+* Mobile Devices
+  - *Andrew* : They ported vim to the iPad. We should port emacs to the iPad.
+  - *John* : Is the issh screen too small to do anything?
+    - *Andrew, Zach* : Yes.
+    - *Zach* : You can restart your server from your phone but that's about it.
+    - *Andrew* : You can also ssh in and forkbomb eniac.
+      - John will be targeting a random 505 student with forkbombs.
+* Publicity
+  - *Andrew* : We should get CJ to post to everyone in his class last semester.
+  - *Zach* : I can just post on Piazza and force it to send to everyone.
+  - We will be collaboratively editing the email.
+    - *Mish* : Google doc!
+    - *Andrew* : Emacs!
+  - Copying text from emacs into gmail is inefficient, compared to sending mail from emacs.
+  - *John* : I really want our motto to be Never Too Late To :q
+    - Never use vim. If you don't have emacs, use nano, or ed.
+  - Zach requests pizza.
+    - *John* : If we get food, then we're set.
+* Meeting Structure
+  - Separate meetings for beginners and power users (though anyone can come to both).
+    - *Mish* : If nobody shows up to the lecture we can just have one of our hack sessions.
+  - We need a logo.
+* Misc.
+  - Some guy stops by to retreive his gloves.
+  - John registers localbriefs.com, for briefs of local news. Then he got the mental image of "local underwear."
+    - *John* : I think I could still spin it into something useful though.
+  - *Mish* : You can mark sections with C-<SPC> and the arrow keys.
+    - *Andrew* : What arrow keys?
+  - Zach is already that guy who plays with M-x zone.

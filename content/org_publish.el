@@ -15,6 +15,7 @@
          :style "<link rel=\"stylesheet\" type=\"text/css\" href=\"../css/stylesheet.css\" />"
          :auto-preamble t
          :auto-sitemap t                ; generate automagically
+         :sitemap-sort-folders last
          :sitemap-title "Main Sitemap"
          )
 

@@ -6,7 +6,7 @@
 #+SETUPFILE: ../org-templates/level-0.org
 #+OPTIONS:   author:nil email:nil toc:nil
 #+INCLUDE: "../org-templates/analytics.org"
-#+UP_LINK: sitemap.org
+#+LINK_UP: sitemap.html
 
 #+begin_center
 at the University of Pennsylvania, Dept. of Computer Science
@@ -19,6 +19,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 
 * Meetings
   Every Tuesday at 6:00pm in Skirkanich 508.
+  - [[file:meeting-notes/2012-04-10.org][Last Meeting's Notes]]
 
 * Links
  - [[file:meeting-notes/sitemap.org][Meeting Notes]]

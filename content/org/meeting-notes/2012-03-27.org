@@ -1,77 +1,77 @@
 #+SETUPFILE: ../../org-templates/meeting-notes.org
 #+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Matt Croop
 
 Meeting Notes 2012-03-27
 
-* Meeting Notes 2012-03-27
-** The Greater Emacs Community
-   - [[http://emacsmovies.org/blog/2012/03/24/terminology/][emacsmovies.org]] is also a fan of ~M-x zone~ (as well as
-     ~animate-sequence~)
-** Setup
-   - Someone's tree thing is drawn on the whiteboard.
-     - *John*: Let's get the schematics out of the way.
-   - Braunstein, Orderer-Elect of Food, is absent.
-     - *Rafe*: Koreana doesn't start taking orders until 5:30.
-     - Andrew had class then so Rafe submitted the order for him.
-   - Mish disapproves of the transparent blinds that do not filter the
-     sun.
-   - Mish pushes the potluck back until the last day of emacsclub.
-     - *John*: I thought we were doing the potluck today!
-     - *Rafe*: But I spent so much time on my init file today!
-       - Rafe's init file is pretty now.
-       - *Mish*: It's going to stay pretty until the potluck, though.
-       - *Rafe*: No it won't. I'm just going to cat things to the end
-         of it.
-   - We have new members, so we all introduce ourselves.
-     - Mish introduces himself as the leader.
-     - *John*: I'm also the president, even though I don't do
-       anything.
-     - *Zach*: I'm Zach.
-       - The sunlight is in his hair, unaffected by the transparent
-         blinds.
-       - *Mish*: You look like a god.
-     - Andrew arrives.
-       - *Rafe*: This is Andrew.
-       - *Mish*: This is Andrew.
-** Flymake
-   - Mish inquires whether we should set up flymake in C or Java.
-     - *Zach*: You have both working?
-     - *Mish*: I have nothing working.
-   - *Mish*: Zach will be leading us.
-     - *Zach*: Through the Googling.
-   - We all forage for usable C projects.
-     - *John*: I'm going to do this with badbuf.
-   - *Zach*: I like how there's a pedantic option for the compiler.
-     - *John*: ~-pedantic~ is extra- ~-Wall~
-   - *Mish*: There's a flymake for vim, Mr. Vim User.
-   - Rafe's flymake currently works for Python and LaTeX.
-   - Zach puts his makefile on pastebin, while marveling at the vast
-     extent of pastebin's syntax highlighting options.
-     - *Zach*: Did everyone get that address?
-     - Mish just copied Zach's Makefile off the projector in the time
-       it took to put it up on pastebin.
-   - Mish complains about cross-pollination.
-   - *Mish*: How do we not know how to global-set-key something? This
-     is embarassing.
-   - *Zach*: What's your Makefile called?
-     - *Andrew*: What do you think it's called? Makefile!
-** The Feast
-   - The utensils and napkins from Koreana are wrapped in rubber
-     bands.
-     - *Rafe*: They went through painstaking effort to make these.
-   - Rafe requests it be added to the record that next time we should
-     prepare a stock of plates.
-     - This time, however, our plates are Koreana container tops.
-       - *Rafe*: Here is a plate.
-       - *Todun*: Thank you.
-     - Mish gets the real plate.
-       - *Rafe*: As our leader, you get the only actual plate.
-   - The sun shines directly through the highrise rooftop lounges.
-   - *Mish*: Is everyone here?
-     - *Rafe*: I'm here.
-   - A Jimmy John's platter is proposed for next week's feast.
-     - *Zach*: What about a Potbelly platter?
-     - Whenever someone suggests Jimmy John's, Zach one-ups them.
-   - As we get kicked out by the 7:15pm group, Mish gathers all his
-     belongings.
-     - *Mish*: Oh! My dongle!
+* The Greater Emacs Community
+  - [[http://emacsmovies.org/blog/2012/03/24/terminology/][emacsmovies.org]] is also a fan of ~M-x zone~ (as well as
+    ~animate-sequence~)
+* Setup
+  - Someone's tree thing is drawn on the whiteboard.
+    - *John*: Let's get the schematics out of the way.
+  - Braunstein, Orderer-Elect of Food, is absent.
+    - *Rafe*: Koreana doesn't start taking orders until 5:30.
+    - Andrew had class then so Rafe submitted the order for him.
+  - Mish disapproves of the transparent blinds that do not filter the
+    sun.
+  - Mish pushes the potluck back until the last day of emacsclub.
+    - *John*: I thought we were doing the potluck today!
+    - *Rafe*: But I spent so much time on my init file today!
+      - Rafe's init file is pretty now.
+      - *Mish*: It's going to stay pretty until the potluck, though.
+      - *Rafe*: No it won't. I'm just going to cat things to the end
+        of it.
+  - We have new members, so we all introduce ourselves.
+    - Mish introduces himself as the leader.
+    - *John*: I'm also the president, even though I don't do
+      anything.
+    - *Zach*: I'm Zach.
+      - The sunlight is in his hair, unaffected by the transparent
+        blinds.
+      - *Mish*: You look like a god.
+    - Andrew arrives.
+      - *Rafe*: This is Andrew.
+      - *Mish*: This is Andrew.
+* Flymake
+  - Mish inquires whether we should set up flymake in C or Java.
+    - *Zach*: You have both working?
+    - *Mish*: I have nothing working.
+  - *Mish*: Zach will be leading us.
+    - *Zach*: Through the Googling.
+  - We all forage for usable C projects.
+    - *John*: I'm going to do this with badbuf.
+  - *Zach*: I like how there's a pedantic option for the compiler.
+    - *John*: ~-pedantic~ is extra- ~-Wall~
+  - *Mish*: There's a flymake for vim, Mr. Vim User.
+  - Rafe's flymake currently works for Python and LaTeX.
+  - Zach puts his makefile on pastebin, while marveling at the vast
+    extent of pastebin's syntax highlighting options.
+    - *Zach*: Did everyone get that address?
+    - Mish just copied Zach's Makefile off the projector in the time
+      it took to put it up on pastebin.
+  - Mish complains about cross-pollination.
+  - *Mish*: How do we not know how to global-set-key something? This
+    is embarassing.
+  - *Zach*: What's your Makefile called?
+    - *Andrew*: What do you think it's called? Makefile!
+* The Feast
+  - The utensils and napkins from Koreana are wrapped in rubber
+    bands.
+    - *Rafe*: They went through painstaking effort to make these.
+  - Rafe requests it be added to the record that next time we should
+    prepare a stock of plates.
+    - This time, however, our plates are Koreana container tops.
+      - *Rafe*: Here is a plate.
+      - *Todun*: Thank you.
+    - Mish gets the real plate.
+      - *Rafe*: As our leader, you get the only actual plate.
+  - The sun shines directly through the highrise rooftop lounges.
+  - *Mish*: Is everyone here?
+    - *Rafe*: I'm here.
+  - A Jimmy John's platter is proposed for next week's feast.
+    - *Zach*: What about a Potbelly platter?
+    - Whenever someone suggests Jimmy John's, Zach one-ups them.
+  - As we get kicked out by the 7:15pm group, Mish gathers all his
+    belongings.
+    - *Mish*: Oh! My dongle!
