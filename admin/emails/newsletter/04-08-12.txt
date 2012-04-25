@@ -1,0 +1,47 @@
+                         Emacs Club this Week
+                         ====================
+
+Hi Everyone,
+
+Command of the Week 
+~~~~~~~~~~~~~~~~~~~~
+
+  Just as some CTRL combos have Meta amplifiers, an important one to
+  remember is the deletion amplifiers which work on words instead of characters.
+
+  `<DEL>' : Delete a character backwards.
+  `M-<DEL>' : Delete a word in the backward direction. 
+
+  `C-d': Delete a character in the forward direction.
+  `M-d' : Delete a word in the forward direction.
+
+Next Meeting 
+~~~~~~~~~~~~~
+
+  Thanks to Zach for discovering some useful ido packages which we
+  will discuss, namely ido-ubiquitous, smex, as well as an alternative
+  to the Emacs Starter Kit, the Emacs Prelude (which I guess is named
+  after Haskell's Prelude). The ido packages integrate themselves into
+  M-x calls, so you have a list of frequently used functions
+  available which is pretty nice. Here are the relevant links if you are
+  curious: 
+
+  - [Prelude]
+  - [Smex]
+  - [Ido-ubiquitous]
+
+  We'll work more on flymake if everyone is interested, we have yet to
+  delve into Python's flymake integration, which is pretty sexy when
+  you include the PEP8 style too. 
+
+  Another topic I'd like to discuss is Emacs 24, and how it will make
+  some of our current packages obsolete in the future. 
+
+
+Cheers,
+Mish
+
+[Prelude]: http://batsov.com/emacs-prelude/
+[Smex]: http://www.emacswiki.org/emacs/Smex#toc3
+[Ido-ubiquitous]: https://github.com/technomancy/ido-ubiquitous
+

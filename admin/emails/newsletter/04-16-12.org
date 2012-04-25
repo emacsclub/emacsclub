@@ -1,0 +1,35 @@
+#+TITLE:     Emacs Club this Week
+#+AUTHOR:    Emacs Club core
+#+EMAIL:     emacsclub-core@lists.seas.upenn.edu
+#+DATE:      2012-02-06 Mon
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME:
+
+
+Hi Everyone, 
+
+* Command of the Week
+
+  ~M-x man~: Look up a man page entry, display it in an Emacs buffer.
+  This is super useful because clicking on links in the man page, such
+  as C source files or other man references, will open those up in
+  Emacs as well. 
+
+* Next Meeting 
+
+  Our next meeting will be tomorrow, Tuesday April 11th, in
+  Skirkanich 508. We'll finally tackle checking email with Emacs,
+  given enough interest in this topic. Food will be Potbelly
+  sandwiches. 
+
+
+Cheers,
+Mish

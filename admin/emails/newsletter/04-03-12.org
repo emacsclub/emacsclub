@@ -1,0 +1,36 @@
+#+TITLE:     Emacs Club this Week
+#+AUTHOR:    Emacs Club core
+#+EMAIL:     emacsclub-core@lists.seas.upenn.edu
+#+DATE:      2012-02-06 Mon
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+
+Thanks everyone for coming out to last week's meeting. 
+
+This week, we will continue to build on flymake to enable it for other
+popular languages such as Java and Python. If we manage to get all
+that done and still have time, we'll go over previous topics anyone
+might have questions about. We will be having Potbelly sandwiches
+today. 
+
+* Command of the Week
+
+  ~C-c v~ : eval-buffer (works only for elisp buffers)
+  ~C-x m~ : runs the emacs shell (much better than normal shell for
+  most situations!)
+
+* Next Meeting
+
+  Today, Tuesday, April 3rd at 6pm in Skirkanich 508. 
+
+
+Cheers,
+Mish

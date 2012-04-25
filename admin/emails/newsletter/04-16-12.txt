@@ -1,0 +1,24 @@
+                         Emacs Club this Week
+                         ====================
+
+Hi Everyone, 
+
+Command of the Week 
+~~~~~~~~~~~~~~~~~~~~
+
+  `M-x man': Look up a man page entry, display it in an Emacs buffer.
+  This is super useful because clicking on links in the man page, such
+  as C source files or other man references, will open those up in
+  Emacs as well. 
+
+Next Meeting 
+~~~~~~~~~~~~~
+
+  Our next meeting will be tomorrow, Tuesday April 11th, in
+  Skirkanich 508. We'll finally tackle checking email with Emacs,
+  given enough interest in this topic. Food will be Potbelly
+  sandwiches. 
+
+
+Cheers,
+Mish

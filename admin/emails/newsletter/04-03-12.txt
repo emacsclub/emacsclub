@@ -1,0 +1,26 @@
+                         Emacs Club this Week
+                         ====================
+
+Thanks everyone for coming out to last week's meeting. 
+
+This week, we will continue to build on flymake to enable it for other
+popular languages such as Java and Python. If we manage to get all
+that done and still have time, we'll go over previous topics anyone
+might have questions about. We will be having Potbelly sandwiches
+today. 
+
+Command of the Week 
+~~~~~~~~~~~~~~~~~~~~
+
+  `C-c v' : eval-buffer (works only for elisp buffers)
+  `C-x m' : runs the emacs shell (much better than normal shell for
+  most situations!)
+
+Next Meeting 
+~~~~~~~~~~~~~
+
+  Today, Tuesday, April 3rd at 6pm in Skirkanich 508. 
+
+
+Cheers,
+Mish

@@ -1,0 +1,27 @@
+                         Emacs Club this Week
+                         ====================
+
+Hi all,
+
+Command of the Week 
+--------------------
+  
+  ~M-:~ Evaluate an elisp expression. This is useful for things like 
+  rebinding a key on the fly. For instance, if you wanted to set ~C-c
+  c~ to run ~M-x compile <RET>~, you could evaluate
+
+  (global-set-key "\C-cc" 'compile)
+
+
+Next Meeting 
+-------------
+
+  Instead of our usual meeting in Skirkanich 508, tomorrow we will
+  join each other at the Philly Lambda group's talk on Clojure, in
+  Levine 315 at 6:30pm. Clojure is a dialect of lisp (just like
+  Elisp!) that runs on the Java Virtual Machine. Please join us if you
+  have an interest in functional programming.
+
+  
+Cheers,
+Mish

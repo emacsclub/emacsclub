@@ -1,0 +1,52 @@
+#+TITLE:     Emacs Club this Week
+#+AUTHOR:    Emacs Club core
+#+EMAIL:     emacsclub-core@lists.seas.upenn.edu
+#+DATE:      2012-02-06 Mon
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME:
+
+Hi Everyone,
+
+* Command of the Week
+
+  Just as some CTRL combos have Meta amplifiers, an important one to
+  remember is the deletion amplifiers which work on words instead of characters.
+
+  ~<DEL>~ : Delete a character backwards.
+  ~M-<DEL>~ : Delete a word in the backward direction. 
+
+  ~C-d~: Delete a character in the forward direction.
+  ~M-d~ : Delete a word in the forward direction.
+
+* Next Meeting
+
+  Thanks to Zach for discovering some useful ido packages which we
+  will discuss, namely ido-ubiquitous, smex, as well as an alternative
+  to the Emacs Starter Kit, the Emacs Prelude (which I guess is named
+  after Haskell's Prelude). The ido packages integrate themselves into
+  M-x calls, so you have a list of frequently used functions
+  available which is pretty nice. Here are the relevant links if you are
+  curious: 
+
+  - [[http://batsov.com/emacs-prelude/][Prelude]]
+  - [[http://www.emacswiki.org/emacs/Smex#toc3][Smex]]
+  - [[https://github.com/technomancy/ido-ubiquitous][Ido-ubiquitous]]
+
+  We'll work more on flymake if everyone is interested, we have yet to
+  delve into Python's flymake integration, which is pretty sexy when
+  you include the PEP8 style too. 
+
+  Another topic I'd like to discuss is Emacs 24, and how it will make
+  some of our current packages obsolete in the future. 
+
+
+Cheers,
+Mish
