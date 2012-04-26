@@ -1,6 +1,6 @@
 #+SETUPFILE: ../../org-templates/meeting-notes.org
 #+INCLUDE:   "../../org-templates/analytics.org"
-#+AUTHOR: Matt Croop
+#+AUTHOR: Matthew Croop
 
 Meeting Notes 2012-02-21
 
