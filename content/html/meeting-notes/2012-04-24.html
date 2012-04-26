@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Meeting Notes 2012-04-24</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="Meeting Notes 2012-04-24"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-04-25 22:02:09 EDT"/>
+<meta name="author" content="Matthew Croop"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style><link rel="stylesheet" type="text/css" href="../../css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../../css/stylesheet.css" />
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+<div id="org-div-home-and-up" style="text-align:right;font-size:70%;white-space:nowrap;">
+ <a accesskey="h" href="sitemap.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">Meeting Notes 2012-04-24</h1>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30426956-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Field Trip: Introduction to Clojure with Philly Lambda</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Field Trip: Introduction to Clojure with Philly Lambda</h2>
+<div class="outline-text-2" id="text-1">
+
+<ul>
+<li>The semester is ending.
+<ul>
+<li><b>Jon</b>: Get some closure with Clojure!
+</li>
+</ul>
+
+</li>
+<li>The talk is well-attended, proving that Facebook event
+    attendance lists don't mean anything.
+</li>
+<li>Michael was worried that everyone would already knew Lisp.
+<ul>
+<li><b>Rafe</b>: I just came here to make fun of Lisp and talk about ML.
+</li>
+</ul>
+
+</li>
+<li><b>Hunter</b>: Why are there so many emacs people here?
+</li>
+<li>Michael goes over some of the objections people have to Lisps,
+    such as "looks funny" and "all the round braces are in weird
+    spots."
+</li>
+<li><b>SLIME</b>: Connected. Take this REPL, brother, and may it serve you well.
+<ul>
+<li>Swanky.
+</li>
+</ul>
+
+</li>
+<li>Michael attempts to evaluate <code>1</code> as a function.
+<ul>
+<li><b>Michael</b>: It throws that exception in your face.
+</li>
+</ul>
+
+</li>
+<li><b>Michael</b>: If anyone's interested in the Lisp-1 vs. Lisp-2 depate&hellip;
+</li>
+<li><b>Michael</b>: Commas are whitespace. You could actually put twelve
+    of them in there.
+</li>
+<li>Hunter thinks that putting commas in maps is not idiomatic, and
+    so does not do that. Michael thinks putting commas in maps
+    actually is idiomatic, but nevertheless also does not do that. 
+</li>
+<li>Much of Michael's example code uses <code>:foo</code>, <code>:bar</code>, <code>:baz</code>,
+    <code>:quz</code>, etc.
+<ul>
+<li><b>Michael</b>: I should probably get some more concrete examples in here.
+</li>
+<li>Andrew proposes <code>:booze</code> as a new metasyntactic variable.
+</li>
+</ul>
+
+</li>
+<li><b>Michael</b>: This is terrible. I'm going to rewrite this to not be
+    terrible.
+</li>
+<li>Eclipse gets really unhappy about mismatched quotes.
+</li>
+<li>Everything that isn't <code>nil</code> or <code>false</code> is true. Including <code>0</code>.
+<ul>
+<li><b>Mish</b>: Nooooo&hellip;&hellip;
+</li>
+</ul>
+
+</li>
+<li>Michael eyeballs the right number of parentheses to copy, while mumbling.
+</li>
+<li><b>Mish</b>: Why does it return Java exceptions? Isn't that not useful?
+<ul>
+<li><b>Hunter</b>: You can learn to read them.
+</li>
+<li>Alternately, you can always just copy paste the errors to
+      StackOverflow.
+</li>
+</ul>
+
+</li>
+<li><b>Michael</b>: Once you have this, boilerplate code makes you want to
+    kill kittens.
+</li>
+<li>There's some macro metaprogramming magic.
+<ul>
+<li><b>Michael</b>: There's a word "homoiconic," which I've never heard
+      strictly defined, but it means something like that.
+</li>
+</ul>
+
+</li>
+<li><b>Hunter</b>: Clojure has a lot of syntax. Traditional Lisp people
+    hate that. I'm coming from the Perl world, so I love it.
+</li>
+<li><b>Michael</b>: Eclipse just did something terrible.
+<ul>
+<li>Eclipse does something terrible, again.
+<ul>
+<li>Eclipse does something terrible, again, again.
+<ul>
+<li><b>Michael</b>: Well, Eclipse sucks.
+</li>
+<li><b>Mish</b>: Why don't we use emacs?
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li>Eclipse spits out a GUID.
+<ul>
+<li><b>Michael</b>: Session error, huh?
+</li>
+<li><b>Andrew</b>: NullPointerException!
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2012-04-25 22:02:09 EDT</p>
+<p class="author">Author: Matthew Croop</p>
+<p class="creator">Org version 7.8.09 with Emacs version 23</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>

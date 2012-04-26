@@ -1,0 +1,56 @@
+#+SETUPFILE: ../../org-templates/meeting-notes.org
+#+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Matthew Croop
+
+Meeting Notes 2012-04-24
+
+* Field Trip: Introduction to Clojure with Philly Lambda
+  - The semester is ending.
+    - *Jon*: Get some closure with Clojure!
+  - The talk is well-attended, proving that Facebook event
+    attendance lists don't mean anything.
+  - Michael was worried that everyone would already knew Lisp.
+    - *Rafe*: I just came here to make fun of Lisp and talk about ML.
+  - *Hunter*: Why are there so many emacs people here?
+  - Michael goes over some of the objections people have to Lisps,
+    such as "looks funny" and "all the round braces are in weird
+    spots."
+  - *SLIME*: Connected. Take this REPL, brother, and may it serve you well.
+    - Swanky.
+  - Michael attempts to evaluate ~1~ as a function.
+    - *Michael*: It throws that exception in your face.
+  - *Michael*: If anyone's interested in the Lisp-1 vs. Lisp-2 depate...
+  - *Michael*: Commas are whitespace. You could actually put twelve
+    of them in there.
+  - Hunter thinks that putting commas in maps is not idiomatic, and
+    so does not do that. Michael thinks putting commas in maps
+    actually is idiomatic, but nevertheless also does not do that. 
+  - Much of Michael's example code uses ~:foo~, ~:bar~, ~:baz~,
+    ~:quz~, etc.
+    - *Michael*: I should probably get some more concrete examples in here.
+    - Andrew proposes ~:booze~ as a new metasyntactic variable.
+  - *Michael*: This is terrible. I'm going to rewrite this to not be
+    terrible.
+  - Eclipse gets really unhappy about mismatched quotes.
+  - Everything that isn't ~nil~ or ~false~ is true. Including ~0~.
+    - *Mish*: Nooooo......
+  - Michael eyeballs the right number of parentheses to copy, while mumbling.
+  - *Mish*: Why does it return Java exceptions? Isn't that not useful?
+    - *Hunter*: You can learn to read them.
+    - Alternately, you can always just copy paste the errors to
+      StackOverflow.
+  - *Michael*: Once you have this, boilerplate code makes you want to
+    kill kittens.
+  - There's some macro metaprogramming magic.
+    - *Michael*: There's a word "homoiconic," which I've never heard
+      strictly defined, but it means something like that.
+  - *Hunter*: Clojure has a lot of syntax. Traditional Lisp people
+    hate that. I'm coming from the Perl world, so I love it.
+  - *Michael*: Eclipse just did something terrible.
+    - Eclipse does something terrible, again.
+      - Eclipse does something terrible, again, again.
+        - *Michael*: Well, Eclipse sucks.
+        - *Mish*: Why don't we use emacs?
+    - Eclipse spits out a GUID.
+      - *Michael*: Session error, huh?
+      - *Andrew*: NullPointerException!
