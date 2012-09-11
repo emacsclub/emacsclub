@@ -18,7 +18,7 @@ at the University of Pennsylvania, Dept. of Computer Science
 #+end_center
 
 * Meetings
-  Every Tuesday at 6:00pm in Skirkanich 508.
+  Every Tuesday at 6:00pm in Levine 307.
   - [[file:meeting-notes/2012-04-24.org][Last Meeting's Notes]]
 
 * Links
