@@ -1,0 +1,43 @@
+#+SETUPFILE: ../../org-templates/meeting-notes.org
+#+INCLUDE:   "../../org-templates/analytics.org"
+#+AUTHOR: Rafe Kettler
+
+Meeting Notes 2012-09-11
+
+* Assigning roles for emacs club this coming year
+** Keeper of meeting notes
+*** Candidate must be funny and expressive (Andrew doesn't meet these criteria)
+*** Rafe will do the job
+** Webmaster and administrator
+*** Git and website -- job goes to Nikos
+** Elisp evangelist -- Andrew
+*** Homework assignments
+*** Plugin ideas
+* Upcoming talks
+** Python setup
+** Prelude
+** emacs tutorial
+*** Mish always does it (1 for 1 is 100%)
+*** Andrew almost falls out of his rolling chair (seems like this might take effort)
+*** Zach's sandwich always gets on his laptop (seems preventable)
+*** Obligatory dongle jokes
+* Food
+** "Nose goes"
+** No one remembers who Laura Fox is
+* Piazza
+** Gauge interest at emacs tutorial
+* Plugin idea -- yeoman
+** yeoman is a package manager/build system for the web (specifically client-side code)
+** Interface in emacs for yeoman -- build, start up server
+** Built by Google -- good!
+** Secondary plugin idea -- literate lisp
+* Don Knuth
+** Origin of TeX and LaTeX
+** TAOCP -- still not finished, typeset in TeX because nothing was good enough
+* How many hardcore emacs hackers does it take to connect a MacBook to a projector?
+** 3 by my account
+** More than 15 combined years of higher education...
+* Walkthrough of the emacs club repository
+** emacsclub.github.com -- the actual website, builds automatically through some Github magic ($100 million series A, still supports emacs)
+** emacsclub is the repo to actually edit
+
